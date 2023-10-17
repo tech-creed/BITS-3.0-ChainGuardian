@@ -1,2 +1,5 @@
 /server/node_modules
 /server/package-lock.json
+
+/chain_guardian/node_modules
+/chain_guardian/package-lock.json
