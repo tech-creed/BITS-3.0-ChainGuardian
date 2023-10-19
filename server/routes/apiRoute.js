@@ -3,6 +3,7 @@ const { tnxDetails,accDetails,accValidator } = require("../controllers/apiContro
 
 const router = express.Router()
 
+router.get("/addressData/:chain/:address",accDetails)
 router.get("/addressValidator/:address",accValidator)
 
 module.exports = router
