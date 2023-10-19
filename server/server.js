@@ -12,9 +12,14 @@ app.use(express.urlencoded({ extended: true }))
 
 const PORT = process.env.PORT || 8080
 
+// routes
+const apiRoute = require('./routes/apiRoute')
+
 app.listen(PORT, () => {
     console.log("server listening on port " + PORT)
 })
+
+app.use("/api", apiRoute)
 
 // routes for api handling
 app.use("/",(req,res)=>{
