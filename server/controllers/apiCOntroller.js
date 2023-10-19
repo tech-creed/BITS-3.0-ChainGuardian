@@ -116,4 +116,64 @@ const accValidator = async (req, res) => {
     }
   }
 
-  module.exports = { accValidator, accDetails}
+  const tnxDetails = async (req, res) => {
+    const chain = req.params.chain
+    const txnId = req.params.txn_id
+  
+    if (!chain || !txnId) {
+      return res.status(400).json({ error: 'Missing parameters' })
+    }
+  
+    const apiUrl = `https://api.blockchair.com/${chain}/dashboards/transaction/${txnId}?key=G___1bJXRpXgKX887Kc2tRglE7kY6iCF`
+  
+    axios.get(apiUrl)
+      .then(response =>{
+        var data = response.data
+        data = data.data
+        console.log(data)
+        finalSend = {}
+        finalSend['transaction'] = {}
+        finalSend['inputs'] = []
+        finalSend['outputs'] = []
+        finalSend['transaction']['id'] = data[txnId]['transaction'].id
+        finalSend['transaction']['block_id'] = data[txnId]['transaction'].block_id
+        finalSend['transaction']['time'] = data[txnId]['transaction'].time
+        finalSend['transaction']['input_total_usd'] = data[txnId]['transaction'].input_total_usd
+        finalSend['transaction']['fee_usd'] = data[txnId]['transaction'].fee_usd
+        finalSend['transaction']['size'] = data[txnId]['transaction'].size
+        finalSend['transaction']['weight'] = data[txnId]['transaction'].size
+  
+        console.log(data[txnId]['inputs'])
+        for (let i = 0; i < data[txnId]['inputs'].length; i++) {
+          tmp = {}
+          tmp['id'] = data[txnId]['inputs'][i].transaction_id
+          tmp['block_id'] = data[txnId]['inputs'][i].block_id
+          tmp['time'] = data[txnId]['inputs'][i].time
+          tmp['usd'] = data[txnId]['inputs'][i].value_usd
+          tmp['recipient'] = data[txnId]['inputs'][i].recipient
+          tmp['transfered'] = data[txnId]['inputs'][i].is_spent
+  
+          finalSend['inputs'].push(tmp)
+  
+        }
+  
+        for (let i = 0; i < data[txnId]['outputs'].length; i++) {
+          tmp = {}
+          tmp['id'] = data[txnId]['outputs'][i].transaction_id
+          tmp['block_id'] = data[txnId]['outputs'][i].block_id
+          tmp['time'] = data[txnId]['outputs'][i].time
+          tmp['usd'] = data[txnId]['outputs'][i].value_usd
+          tmp['recipient'] = data[txnId]['outputs'][i].recipient
+          tmp['transfered'] = data[txnId]['outputs'][i].is_spent
+  
+          finalSend['outputs'].push(tmp)
+        }
+        //console.log(data)
+        res.json(finalSend)
+      })
+      .catch(error => {
+        res.status(404).json({ error: error })
+      })
+  }
+
+  module.exports = { accValidator, accDetails, tnxDetails}
