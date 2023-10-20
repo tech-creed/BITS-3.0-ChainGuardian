@@ -534,149 +534,6 @@ const LandingPage = () => {
                 </section>
 
                 <section
-                  className="sh-section sh-section-3c0e8befc5563a9e2b2f1686239df430 fw-main-row sh-section-visibility-everywhere">
-                  <div className="sh-section-container container">
-                    <div className="fw-row">
-                      <div
-                        className="sh-column sh-column-a4f9a7d5b10db8a58fa09d591dac1a03 fw-col-xs-12 sh-column-mobile-padding sh-animated fadeIn"
-                        data-wow-duration="2s">
-                        <div className="sh-column-wrapper">
-                          <div id="text-group-6e767f7fa0e5e6f20286051432031659" className="sh-text-group">
-                            <div className="text-group-layout2">
-                              <div className="text-group-content"
-                                style={{ display: 'inline-block', verticalAlign: 'bottom', marginRight: '15px' }}>
-                                <h2><span style={{ fontSize: '36px' }}>APIs We've Utilized</span></h2>
-                              </div>
-                              <div className="text-group-content" style={{ display: 'inline-block', verticalAlign: 'bottom' }}>
-                                <p><strong><span style={{ color: '#f3ba40' }}>AND PARTNERS</span></strong></p>
-                              </div>
-                            </div>
-                          </div>
-                          <div id="divider-274a9dec3525a0e2d693c324013f19dd"
-                            className="sh-divider sh-divider-center sh-divider-content-none">
-                            <div className="sh-divider-line"></div>
-                          </div>
-
-                          <div id="testimonials-3514de25caf749fa7c5dc0f72d1b19b3"
-                            className="sh-testimonials sh-testimonials-quote-on sh-testimonials-style3">
-                            <div className="sh-testimonials-group" id="testimonials-slider-3514de25caf749fa7c5dc0f72d1b19b3">
-                              <div className="sh-testimonials-item">
-                                <div className="sh-testimonials-item-container">
-                                  <div className="sh-testimonials-table sh-table text-left">
-                                    <div className="sh-testimonials-table-icon sh-table-cell text-center">
-                                      <div className="sh-testimonials-quote-icon">
-                                        <i className="ti-quote-right"></i>
-                                      </div>
-                                    </div>
-                                    <div className="sh-testimonials-table-image sh-table-cell">
-                                      <div className="sh-testimonials-image"
-                                        style={{ backgroundImage: 'url(./crypto/wp-content/uploads/sites/19/2018/04/Group-147.jpg)' }}>
-                                      </div>
-                                    </div>
-                                    <div className="sh-testimonials-table-name sh-table-cell">
-                                      <div className="sh-testimonials-name">
-                                        <h3>Native Coin</h3>
-                                      </div>
-                                      <div className="sh-testimonials-job">
-                                        News agency </div>
-                                    </div>
-                                    <div className="sh-testimonials-table-quote sh-table-cell-top">
-                                      <div className="sh-testimonials-quote">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam
-                                        facilisis pharetra. Aenean consectetur lacinia diam a tincidunt. Vivamus facilisis
-                                        lacus non velit suscipit pellentesque. Nam ac mauris nec mi lobortis sollicitudin
-                                        sed at lacus. Fusce volutpat, dolor in suscipit pharetra, lacus sapien sollicitudin
-                                        quam, non aliquam ex neque eu lectus. </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="sh-testimonials-item-container">
-                                  <div className="sh-testimonials-table sh-table text-left">
-                                    <div className="sh-testimonials-table-icon sh-table-cell text-center">
-                                      <div className="sh-testimonials-quote-icon">
-                                        <i className="ti-quote-right"></i>
-                                      </div>
-                                    </div>
-                                    <div className="sh-testimonials-table-image sh-table-cell">
-                                      <div className="sh-testimonials-image"
-                                        style={{ backgroundImage: 'url(/crypto/wp-content/uploads/sites/19/2018/04/Group-148.jpg)' }}>
-                                      </div>
-                                    </div>
-                                    <div className="sh-testimonials-table-name sh-table-cell">
-                                      <div className="sh-testimonials-name">
-                                        <h3>Cryptic News</h3>
-                                      </div>
-                                      <div className="sh-testimonials-job">
-                                        Blog </div>
-                                    </div>
-                                    <div className="sh-testimonials-table-quote sh-table-cell-top">
-                                      <div className="sh-testimonials-quote">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam
-                                        facilisis pharetra. Aenean consectetur lacinia diam a tincidunt. Vivamus facilisis
-                                        lacus non velit suscipit pellentesque. Nam ac mauris nec mi lobortis sollicitudin
-                                        sed at lacus. Fusce volutpat, dolor in suscipit pharetra, lacus sapien sollicitudin
-                                        quam, non aliquam ex neque eu lectus. </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <section
-                  className="sh-section sh-section-f2a121a67d9c41f3c9e8d832d7e9da75 fw-main-row sh-section-visibility-everywhere">
-                  <div className="sh-section-container container-fluid">
-                    <div className="fw-row">
-                      <div className="sh-column sh-column-a3dca186cd0ba5c64b858ed9fc6f6cd7 fw-col-xs-12">
-                        <div className="sh-column-wrapper">
-                          <div id="partners-03d9f4e7d6ca8982fb11d3e7bfb2273f" className="sh-partners-carousel"
-                            data-autoplay="5000" data-id="5">
-                            <div className="sh-partners-carousel-item ">
-                              <div className="sh-partners-carousel-item-content">
-                                <img
-                                  src="//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Group-11-1.png"
-                                />
-                              </div>
-                            </div>
-                            <div className="sh-partners-carousel-item ">
-                              <div className="sh-partners-carousel-item-content">
-                                <img
-                                  src="//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Group-114.png"
-                                />
-                              </div>
-                            </div>
-                            <div className="sh-partners-carousel-item ">
-                              <div className="sh-partners-carousel-item-content">
-                                <img
-                                  src="//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Group-115.png"
-                                />
-                              </div>
-                            </div>
-                            <div className="sh-partners-carousel-item ">
-                              <div className="sh-partners-carousel-item-content">
-                                <img
-                                  src="//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Group-113.png"
-                                />
-                              </div>
-                            </div>
-                            <div className="sh-partners-carousel-item ">
-                              <div className="sh-partners-carousel-item-content">
-                                <img
-                                  src="//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Group-112.png"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <section
                   className="sh-section sh-section-e6c8f4d23049f579b3a6bfb95b9d8e8d fw-main-row sh-section-visibility-everywhere"
                   id="blog">
                   <div className="sh-section-container container">
@@ -716,8 +573,7 @@ const LandingPage = () => {
                                         Sep </div>
                                     </div>
                                     <div className="sh-table-cell-top">
-                                      <a href="https://jevelin.shufflehound.com/crypto/2017/09/01/bitcoin-ethereum-and-ripple-trimming-gains/"
-                                        className="post-title">
+                                      <a href="#" className="post-title">
                                         <h2>Bitcoin, Ethereum and Ripple Trimming Gains</h2>
                                       </a>
                                       <div className="post-content">
@@ -730,11 +586,9 @@ const LandingPage = () => {
                                         <div className="sh-columns post-meta-comments">
                                           <span className="post-meta-categories">
                                             <i className="icon-tag"></i>
-                                            <a href="https://jevelin.shufflehound.com/crypto/category/sales/"
-                                              rel="category tag">Sales</a> </span>
+                                            <a href="#"  rel="category tag">Sales</a> </span>
                                           <meta itemProp="interactionCount" content="UserComments:1" />
-                                          <a href="https://jevelin.shufflehound.com/crypto/2017/09/01/bitcoin-ethereum-and-ripple-trimming-gains/#comments"
-                                            className="post-meta-comments">
+                                          <a href="#"  className="post-meta-comments">
                                             <i className="icon-speech"></i>
                                             1 </a>
                                         </div>
@@ -756,8 +610,7 @@ const LandingPage = () => {
                                         Jun </div>
                                     </div>
                                     <div className="sh-table-cell-top">
-                                      <a href="https://jevelin.shufflehound.com/crypto/2016/06/04/bitcoin-and-altcoins-primed-for-further-gains/"
-                                        className="post-title">
+                                      <a href="#" className="post-title">
                                         <h2>Bitcoin and Altcoins Primed for Further Gains</h2>
                                       </a>
                                       <div className="post-content">
@@ -771,13 +624,11 @@ const LandingPage = () => {
                                         <div className="sh-columns post-meta-comments">
                                           <span className="post-meta-categories">
                                             <i className="icon-tag"></i>
-                                            <a href="https://jevelin.shufflehound.com/crypto/category/bitcoin/"
-                                              rel="category tag">Bitcoin</a>, <a
-                                                href="https://jevelin.shufflehound.com/crypto/category/sales/"
+                                            <a href="#"
+                                              rel="category tag">Bitcoin</a>, <a href="#"
                                                 rel="category tag">Sales</a> </span>
                                           <meta itemProp="interactionCount" content="UserComments:0" />
-                                          <a href="https://jevelin.shufflehound.com/crypto/2016/06/04/bitcoin-and-altcoins-primed-for-further-gains/#comments"
-                                            className="post-meta-comments">
+                                          <a href="#" className="post-meta-comments">
                                             <i className="icon-speech"></i>
                                             0 </a>
                                         </div>
@@ -799,8 +650,7 @@ const LandingPage = () => {
                                         May </div>
                                     </div>
                                     <div className="sh-table-cell-top">
-                                      <a href="https://jevelin.shufflehound.com/crypto/2016/05/25/bahamas-looking-to-enable-blockchain-powered-undersea-exploration/"
-                                        className="post-title">
+                                      <a href="#" className="post-title">
                                         <h2>Bahamas Looking to Enable Blockchain-powered Undersea Exploration</h2>
                                       </a>
                                       <div className="post-content">
@@ -813,13 +663,11 @@ const LandingPage = () => {
                                         <div className="sh-columns post-meta-comments">
                                           <span className="post-meta-categories">
                                             <i className="icon-tag"></i>
-                                            <a href="https://jevelin.shufflehound.com/crypto/category/news/"
-                                              rel="category tag">News</a>, <a
-                                                href="https://jevelin.shufflehound.com/crypto/category/sales/"
+                                            <a href="#"
+                                              rel="category tag">News</a>, <a href="#"
                                                 rel="category tag">Sales</a> </span>
                                           <meta itemProp="interactionCount" content="UserComments:0" />
-                                          <a href="https://jevelin.shufflehound.com/crypto/2016/05/25/bahamas-looking-to-enable-blockchain-powered-undersea-exploration/#comments"
-                                            className="post-meta-comments">
+                                          <a href="#" className="post-meta-comments">
                                             <i className="icon-speech"></i>
                                             0 </a>
                                         </div>
@@ -841,8 +689,7 @@ const LandingPage = () => {
                                         May </div>
                                     </div>
                                     <div className="sh-table-cell-top">
-                                      <a href="https://jevelin.shufflehound.com/crypto/2016/05/08/what-has-been-happening-with-ethereum-in-2018/"
-                                        className="post-title">
+                                      <a href="#" className="post-title">
                                         <h2>What Has Been Happening with Ethereum in 2018?</h2>
                                       </a>
                                       <div className="post-content">
@@ -856,11 +703,9 @@ const LandingPage = () => {
                                         <div className="sh-columns post-meta-comments">
                                           <span className="post-meta-categories">
                                             <i className="icon-tag"></i>
-                                            <a href="https://jevelin.shufflehound.com/crypto/category/news/"
-                                              rel="category tag">News</a> </span>
+                                            <a href="#" rel="category tag">News</a> </span>
                                           <meta itemProp="interactionCount" content="UserComments:0" />
-                                          <a href="https://jevelin.shufflehound.com/crypto/2016/05/08/what-has-been-happening-with-ethereum-in-2018/#comments"
-                                            className="post-meta-comments">
+                                          <a href="#" className="post-meta-comments">
                                             <i className="icon-speech"></i>
                                             0 </a>
                                         </div>
@@ -882,7 +727,7 @@ const LandingPage = () => {
                                         May </div>
                                     </div>
                                     <div className="sh-table-cell-top">
-                                      <a href="https://jevelin.shufflehound.com/crypto/2016/05/07/myetherwallet-dns-hack/"
+                                      <a href="#"
                                         className="post-title">
                                         <h2>MyEtherWallet DNS Hack</h2>
                                       </a>
@@ -897,10 +742,10 @@ const LandingPage = () => {
                                         <div className="sh-columns post-meta-comments">
                                           <span className="post-meta-categories">
                                             <i className="icon-tag"></i>
-                                            <a href="https://jevelin.shufflehound.com/crypto/category/tips-tricks/"
+                                            <a href="#"
                                               rel="category tag">Tips &amp; tricks</a> </span>
                                           <meta itemProp="interactionCount" content="UserComments:0" />
-                                          <a href="https://jevelin.shufflehound.com/crypto/2016/05/07/myetherwallet-dns-hack/#comments"
+                                          <a href="#"
                                             className="post-meta-comments">
                                             <i className="icon-speech"></i>
                                             0 </a>
@@ -923,7 +768,7 @@ const LandingPage = () => {
                                         May </div>
                                     </div>
                                     <div className="sh-table-cell-top">
-                                      <a href="https://jevelin.shufflehound.com/crypto/2016/05/06/inspirations-quote/"
+                                      <a href="#"
                                         className="post-title post-title-format">
                                         <h2><i className="post-format-icon ti-quote-left"></i> As with any other type of money,
                                           there are specific issues Bitcoin users need to know about in order to keep their
@@ -936,14 +781,14 @@ const LandingPage = () => {
                                         <div className="sh-columns post-meta-comments">
                                           <span className="post-meta-categories">
                                             <i className="icon-tag"></i>
-                                            <a href="https://jevelin.shufflehound.com/crypto/category/bitcoin/"
+                                            <a href="#"
                                               rel="category tag">Bitcoin</a>, <a
-                                                href="https://jevelin.shufflehound.com/crypto/category/news/"
+                                                href="#"
                                                 rel="category tag">News</a>, <a
-                                                  href="https://jevelin.shufflehound.com/crypto/category/sales/"
+                                                  href="#"
                                                   rel="category tag">Sales</a> </span>
                                           <meta itemProp="interactionCount" content="UserComments:0" />
-                                          <a href="https://jevelin.shufflehound.com/crypto/2016/05/06/inspirations-quote/#comments"
+                                          <a href="#"
                                             className="post-meta-comments">
                                             <i className="icon-speech"></i>
                                             0 </a>
@@ -975,17 +820,16 @@ const LandingPage = () => {
                         <div className="sh-column-wrapper">
                           <div className="sh-heading sh-heading-style1" id="heading-83652019948c73aa1c58aabc9d547ef9">
                             <h1 className="sh-heading-content size-xl">
-                              <span style={{ textAlign: 'center' }}>Subscribe to always be up to date in our latest news!</span>
+                              <span style={{ textAlign: 'center' }}>Subscribe to ChainGuardian Updates</span>
                             </h1>
                           </div>
                           <div className="sh-empty-space" id="empty-space-2dddb7357fccda96d9d5a111a0a65de4"></div>
                           <div id="text-block-3a60f78df9b02d88d6eaa76d34f54e41" className="sh-text-block">
-                            <p style={{ textAlign: 'center' }}><span style={{ fontSize: '14px' }}>Lorem ipsum dolor sit amet,
-                              consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt erat volutp</span>at.
+                            <p style={{ textAlign: 'center' }}><span style={{ fontSize: '14px' }}>Stay informed with our latest features and news.</span>
                             </p>
                           </div>
                           <div id="contact-form-4a050c6eb614144f62eb11f446151787" className="form-wrapper contact-form">
-                            <form data-fw-form-id="fw_form" method="post" action="https://jevelin.shufflehound.com/crypto/"
+                            <form data-fw-form-id="fw_form" method="post" action="#"
                               className="fw_form_fw_form" data-fw-ext-forms-type="contact-forms"><input type="hidden" name="fwf"
                                 value="fw_form" /><input type="hidden" id="_nonce_fe51fc0f8db6f06eb346bee574855ecf"
                                   name="_nonce_fe51fc0f8db6f06eb346bee574855ecf" value="84e4f7eec8" /><input type="hidden"
@@ -1036,7 +880,7 @@ const LandingPage = () => {
                               </div>
                             </div>
                             <div className="sh-icon-group-item">
-                              <div className="sh-icon-group-item-container">
+                              <div className="sh-icon-grousp-item-container">
                                 <i className="fa fa-google-plus"></i>
                               </div>
                             </div>
@@ -1079,52 +923,16 @@ const LandingPage = () => {
                           <div className="sh-empty-space" id="empty-space-b04ed79846c5df4ee3d2be88da482cce"></div>
                           <div className="sh-heading sh-heading-style1" id="heading-39a783fa771d9242fe5c4457b000b6c1">
                             <h1 id="about" className="sh-heading-content size-s">
-                              <span style={{ textAlign: 'left' }}>Dates:</span>
+                              <span style={{ textAlign: 'left' }}>Date:</span>
                             </h1>
                           </div>
                           <div className="sh-empty-space" id="empty-space-8a822d0be0551fb4d3bbff0777abb45d"></div>
                           <div id="text-block-14cfdb6ff4e8c8b5c91fc7fb9757c163" className="sh-text-block">
-                            <p>Feb 1, 2018 — May 1, 2018</p>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-a5449b5f15bda7db76c9cd05d623f259"></div>
-                          <div className="sh-heading sh-heading-style1" id="heading-206f5aa54bc755d34d394ae36d318f07">
-                            <h1 className="sh-heading-content size-s">
-                              <span style={{ textAlign: 'left' }}>Tokens for sale:</span>
-                            </h1>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-58f680957d0990026430cd909a2820c9"></div>
-                          <div id="text-block-f76373b86e3f89e8d35c771514c6c415" className="sh-text-block">
-                            <p>3,000,000 out of 10,000,000 (30%)</p>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-66d642611eab7dfc4647f041fb390963"></div>
-                          <div className="sh-heading sh-heading-style1" id="heading-ef57e9989cbea83e2601f1ca2e178933">
-                            <h1 className="sh-heading-content size-s">
-                              <span style={{ textAlign: 'left' }}>Hard cap:</span>
-                            </h1>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-ad663a6d501b2a131f1ece94c2b24936"></div>
-                          <div id="text-block-5863fe9ec164ef7d3839285fb15c1d9b" className="sh-text-block">
-                            <p>10 million</p>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-b19e1d80e965b24a67319598486c4644"></div>
-                          <div className="sh-heading sh-heading-style1" id="heading-09a0dc98865c743f5920acda2c61d281">
-                            <h1 className="sh-heading-content size-s">
-                              <span style={{ textAlign: 'left' }}>Soft cap:</span>
-                            </h1>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-1e4b9925aba61ecffab1d6c4bd47b288"></div>
-                          <div id="text-block-8e32b965e0946f7c790bff944722a927" className="sh-text-block">
-                            <p>30 million</p>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-a2aba1d06e942255b063c0b0fceddd70"></div>
-                          <div className="sh-heading sh-heading-style1" id="heading-9ba9b6e0f23620463f72ebdad2c9c405">
-                            <h1 className="sh-heading-content size-s">
-                              <span style={{ textAlign: 'left' }}>Exchange rate:</span>
-                            </h1>
+                            <p>Oct 21, 2018</p>
                           </div>
                           <div className="sh-empty-space" id="empty-space-2d168eb67ff407cbff5eeb7b13b1afbc"></div>
                           <div id="text-block-9d24625e6aabc7bc1dbb9b7ad6e3310c" className="sh-text-block">
-                            <p>1 ETH = 3000 JVLN</p>
+                            <p>1 ETH = 1,35,821.30 INR</p>
                           </div>
                           <div className="sh-empty-space" id="empty-space-6865141b47e5d32b40cd9ef11828f17b"></div>
                         </div>
@@ -1133,82 +941,27 @@ const LandingPage = () => {
                         className="sh-column sh-column-8dd191990a1c3ae61799fb2f8d5acf4e fw-col-xs-12 fw-col-sm-6 sh-column-shadow sh-animated slideInUp"
                         data-wow-duration="2s">
                         <div className="sh-column-wrapper">
-                          <div className="sh-empty-space" id="empty-space-77d7d6edf147b8fee7e04bc97ed76cf4"></div>
-                          <div className="sh-heading sh-heading-style1" id="heading-aa50fedea7220712acad722890b8ef77">
-                            <h1 className="sh-heading-content size-xs">
-                              <span style={{ textAlign: 'left' }}>PARTICIPATE IN OUR TOKEN SALE</span>
-                            </h1>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-9f8dc96d11cf7b95dc1b8eb5a174774b"></div>
-                          <div className="sh-heading sh-heading-style1" id="heading-9d35c43e6a2958a2ba5fac153d8bc09d">
-                            <h1 className="sh-heading-content size-s">
-                              <span style={{ textAlign: 'left' }}><strong>ICO</strong> Ends in:</span>
-                            </h1>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-0b69ccf84e20cd9309d6a07b67dfc1cd"></div>
-                          {/* <script type="text/javascript">
-                        jQuery(document).ready(function ($) {
-                          if ($.isFunction($.fn.countdown)) {
-                            $("#countdown-7b41eb182ce32e59b306a6737b0fa389").countdown('2020/01/01 12:00', function (event) {
-                              var $this = $(this).html(event.strftime(''
-                                + '<div className="weeks"><span>%w</span><div>Weeks</div></div>'
-                                + '<div className="days"><span>%d</span><div>Days</div></div>'
-                                + '<div className="sh-coundtdown-container"></div>'
-                                + '<div className="hours"><span>%H</span><div>Hours</div></div>'
-                                + '<div className="minutes"><span>%M</span><div>Minutes</div></div>'
-                                + '<div className="seconds"><span>%S</span><div>Seconds</div></div>'));
-                            });
-                          }
-                        });
-                      </script> */}
+                          
                           <div id="countdown-7b41eb182ce32e59b306a6737b0fa389"
                             className="sh-countdown sh-countdown-style1 sh-countdown-small sh-countdown-alignment-left"></div>
                           <div className="sh-empty-space" id="empty-space-1ef91cf8b7d7e8d09d40fbd8aa6e090d"></div>
                           <div id="button-91d939963c1faf3651632eb94c46677e" className="sh-button-container  sh-button-style-1">
                             <div className="sh-element-margin">
-                              <a href="/signin" target="_self" className="sh-button sh-button-large ">
+                              <Link to="/signup" target="_self" className="sh-button sh-button-large ">
                                 <span className="sh-button-text">
-                                  BUY TOKENS </span>
-                              </a>
+                                  Get Started </span>
+                              </Link>
                             </div>
                           </div>
                           <div className="sh-empty-space" id="empty-space-d34b837a3b666686b3db84daac359519"></div>
                           <div className="sh-heading sh-heading-style1" id="heading-d840755e434d71da04fb21638903428a">
                             <h1 className="sh-heading-content size-s">
-                              <span style={{ textAlign: 'left' }}>Token Price: <strong>0.0003 BTC </strong></span>
+                              <span style={{ textAlign: 'left' }}>Daily Users: <strong>100+</strong></span>
                             </h1>
                           </div>
                           <div id="divider-c2e0168e3d1d469793887e5f57af8a5b"
                             className="sh-divider sh-divider-center sh-divider-content-none">
                             <div className="sh-divider-line"></div>
-                          </div>
-                          <div className="sh-heading sh-heading-style1" id="heading-04a4dc1f7b1c65da900916436d2952c9">
-                            <h1 className="sh-heading-content size-xs">
-                              <span style={{ textAlign: 'left' }}>PAYMENT METHODS</span>
-                            </h1>
-                          </div>
-                          <div id="icon-group-7d93777db3c9cb354a6fa72808578d69"
-                            className="sh-icon-group sh-icon-group-left sh-icon-group-style3">
-                            <div className="sh-icon-group-item">
-                              <div className="sh-icon-group-item-container">
-                                <i className="fa fa-cc-visa"></i>
-                              </div>
-                            </div>
-                            <div className="sh-icon-group-item">
-                              <div className="sh-icon-group-item-container">
-                                <i className="fa fa-cc-mastercard"></i>
-                              </div>
-                            </div>
-                            <div className="sh-icon-group-item">
-                              <div className="sh-icon-group-item-container">
-                                <i className="fa fa-bitcoin"></i>
-                              </div>
-                            </div>
-                            <div className="sh-icon-group-item">
-                              <div className="sh-icon-group-item-container">
-                                <i className="fa fa-paypal"></i>
-                              </div>
-                            </div>
                           </div>
                         </div>
                       </div>
@@ -1225,24 +978,10 @@ const LandingPage = () => {
                 <div className="sh-footer-columns">
                   <div id="image-1" className="widget_social_links widget-item widget_image">
                     <div className="wrap-image">
-                      <h3 className="widget-title">JVLN Coin</h3>
+                      <h3 className="widget-title">ChainGuardian</h3>
                       <div className="sh-image-widgets">
-                        <p className="sh-image-widgets-description">
-                          Duis semper mauris vitae purus rhoncus suscipit. Nunc dictum dapibus tellus, at viverra risus
-                          pharetra id. Nulla facilisi. Ut mollis et augue non gravida. </p>
-                        <p className="sh-image-widgets-description sh-image-widgets-social">
-                          <a href="http://http://jevelin.shufflehound.com/crypto" target="_blank"
-                            className="social-media-twitter">
-                            <i className="icon-social-twitter"></i>
-                          </a><a href="http://http://jevelin.shufflehound.com/crypto" target="_blank"
-                            className="social-media-facebook">
-                            <i className="icon-social-facebook"></i>
-                          </a><a href="http://http://jevelin.shufflehound.com/crypto" target="_blank"
-                            className="social-media-instagram">
-                            <i className="icon-social-instagram"></i>
-                          </a>
-                          <div className="sh-clear"></div>
-                        </p>
+                        <p className="sh-image-widgets-description">Your Trusted Crypto Transaction Analysis Tool for Enhanced Security and Transparency.</p>
+                        
                       </div>
                     </div>
                   </div>
@@ -1252,21 +991,21 @@ const LandingPage = () => {
                       <div className="sh-recent-posts-widgets">
                         <div className="sh-recent-posts-widgets-item">
                           <span className="post-meta-categories">
-                            <a href="https://jevelin.shufflehound.com/crypto/category/sales/" rel="category tag">Sales</a>
+                            <a href="#" rel="category tag">Sales</a>
                           </span>
                           <a
-                            href="https://jevelin.shufflehound.com/crypto/2017/09/01/bitcoin-ethereum-and-ripple-trimming-gains/">
+                            href="#">
                             <h6>Bitcoin, Ethereum and Ripple Trimming Gains</h6>
                           </a>
                         </div>
                         <div className="sh-recent-posts-widgets-item">
                           <span className="post-meta-categories">
-                            <a href="https://jevelin.shufflehound.com/crypto/category/bitcoin/"
+                            <a href="#"
                               rel="category tag">Bitcoin</a>, <a
-                                href="https://jevelin.shufflehound.com/crypto/category/sales/" rel="category tag">Sales</a>
+                                href="#" rel="category tag">Sales</a>
                           </span>
                           <a
-                            href="https://jevelin.shufflehound.com/crypto/2016/06/04/bitcoin-and-altcoins-primed-for-further-gains/">
+                            href="#">
                             <h6>Bitcoin and Altcoins Primed for Further Gains</h6>
                           </a>
                         </div>
@@ -1278,20 +1017,16 @@ const LandingPage = () => {
                       <h3 className="widget-title">Contacts</h3>
                       <div className="sh-contacts-widget-item">
                         <i className="icon-map"></i>
-                        County, Street name - number
+                        India
                       </div>
                       <div className="sh-contacts-widget-item">
                         <i className="icon-phone"></i>
-                        032 267 899 442
+                        +91 8090808090
                       </div>
                       <div className="sh-contacts-widget-item">
                         <i className="icon-envelope"></i>
-                        <a href="/cdn-cgi/l/email-protection" className="__cf_email__"
-                          data-cfemail="ceada1a3beafa0b78ea0afa3abe0ada1a3">[email&#160;protected]</a>
-                      </div>
-                      <div className="sh-contacts-widget-item">
-                        <i className="icon-clock"></i>
-                        Mon.-Fri.: 10-20 Sun.: 12-16
+                        <a href="#" className="__cf_email__"
+                          >techcreed.info@gmail.com</a>
                       </div>
                     </div>
                   </div>
@@ -1305,8 +1040,9 @@ const LandingPage = () => {
                     <div className="sh-table-cell">
                       <div className="sh-copyrights-text">
                         <span className="developer-copyrights ">
-                          WordPress Theme built by <a href="https://shufflehound.com"
-                            target="blank"><strong>Shufflehound</strong>.</a>
+                          Design And Developed by <a href="https://github.com/tech-creed/BITS-3.0-ChainGuardian"
+                            target="blank"> <strong>TechCreed Team</strong> </a> During <a href="https://unstop.com/hackathons/bits-pilani-postman-api-hackathon-30-bits-pilani-753638"
+                            target="blank"><strong>BITS Pilani Postman API Hackathon 3.0</strong>.</a>
                         </span>
                         <span></span>
                       </div>
@@ -1317,14 +1053,11 @@ const LandingPage = () => {
             </div>
           </footer>
         </div>
-        <div className="sh-back-to-top sh-back-to-top1">
-          <i className="icon-arrow-up"></i>
-        </div>
       </div>
       <div className="sh-notifications"></div>
       <div className="sh-notification-item-example">
         <strong className="sh-notification-item-name"></strong> has been added to the cart. <a
-          href="https://jevelin.shufflehound.com/crypto">
+          href="#">
           <strong>
             View Cart </strong>
         </a>
@@ -1332,7 +1065,6 @@ const LandingPage = () => {
           <i className="ti-close"></i>
         </span>
       </div>
-      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
       <script type="text/javascript">
         window.RS_MODULES = window.RS_MODULES || { };
         window.RS_MODULES.modules = window.RS_MODULES.modules || { };
@@ -1341,134 +1073,6 @@ const LandingPage = () => {
         window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || { };
         window.RS_MODULES.type = 'compiled';
       </script>
-      {/* <script type="text/javascript">
-    jQuery(document).ready(function ($) {
-
-
-      $('.primary-desktop .header-logo-container, .primary-mobile .header-logo-container').attr('href', '//jevelin.shufflehound.com/hello/');
-
-      function jevelin_settings() {
-        if ($(window).width() < 600) {
-          $('.sh-settings').hide();
-        } else {
-          $('.sh-settings').show();
-        }
-      }
-      jevelin_settings();
-
-      $(window).resize(function () {
-        clearTimeout(window.resizedFinished2);
-        window.resizedFinished2 = setTimeout(function () {
-          jevelin_settings();
-        }, 500);
-      });
-
-      $('.sh-settings-hide').on('click', function () {
-        $('.sh-settings').toggleClass('sh-settings-active');
-      });
-
-      $(document).keyup(function (e) {
-        if (e.keyCode == 27) {
-          if ($('.sh-settings').hasClass('sh-settings-active')) {
-            $('.sh-settings').removeClass('sh-settings-active');
-          }
-        }
-      });
-
-      jQuery('.form-submit #submit').on('click', function (event) {
-        alert('This feature is disabled in our demo site. Sorry for any inconvenience.');
-        event.preventDefault()
-        event.stopPropagation()
-        return false;
-      });
-
-    });
-  </script> */}
-      {/* <script type="text/javascript">
-
-    jQuery(document).ready(function ($) {
-      "use strict";
-
-      $(".sh-page-loader").fadeOut(500);
-      $("body").css('overflow-y', 'visible').css('overflow-x', 'hidden');
-
-      $(window).bind('beforeunload', function (e) {
-        $('.sh-page-loader').fadeIn();
-      });
-
-    });
-  </script> */}
-      {/* <style>
-    .sh-page-loader {
-      background-color: rgba(255, 255, 255, 0.98) !important;
-    }
-  </style> */}
-
-      {/* <script>
-    (function (h, o, t, j, a, r) {
-      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-      h._hjSettings = { hjid: 2013664, hjsv: 6 };
-      a = o.getElementsByTagName('head')[0];
-      r = o.createElement('script'); r.async = 1;
-      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-      a.appendChild(r);
-    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-  </script> */}
-
-
-      {/* <script type="text/javascript">
-    jQuery(document).ready(function ($) {
-
-
-      $('.sh-side-options-item-trigger-demos').on('click', function () {
-        $('.sh-side-options').css('transition', '0.3s all ease-in-out');
-
-        if ($('.sh-side-options').hasClass('open')) {
-          $('.sh-side-options').removeClass('open');
-        } else {
-          $('.sh-side-options .sh-side-demos-image').each(function () {
-            $(this).attr('src', $(this).attr('data-src'));
-          });
-          $('.sh-side-options').addClass('open');
-        }
-      });
-
-      $('.sh-side-demos-container-close').on('click', function () {
-        $('.sh-side-options').css('transition', '0.3s all ease-in-out');
-        $('.sh-side-options').removeClass('open');
-      });
-
-
-
-
-    });
-  </script> */}
-      {/* <style type="text/css">
-    .jevelin-header-button div {
-      background-color: #32343d;
-      color: #fff;
-      padding: 2px 24px;
-      border-radius: 5px;
-      transition: 0.3s all ease;
-      margin-left: 10px;
-    }
-
-    .jevelin-header-button div:hover {
-      background-color: #294cff;
-    }
-
-    .jevelin-header-button:after {
-      display: none;
-    }
-  </style> */}
-
-      {/* <script type="text/javascript">
-    (function () {
-      var c = document.body.className;
-      c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-      document.body.className = c;
-    })();
-  </script> */}
       <style id="rs-plugin-settings-inline-css" type="text/css">
         #rs-demo-id { }
       </style>
@@ -1478,21 +1082,6 @@ const LandingPage = () => {
       <script type="text/javascript"
         src="https://jevelin.shufflehound.com/crypto/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
         id="wp-polyfill-js"></script>
-      {/* <script type="text/javascript" id="contact-form-7-js-extra">
-    var wpcf7 = { "api": { "root": "https:\/\/jevelin.shufflehound.com\/crypto\/wp-json\/", "namespace": "contact-form-7\/v1" } };
-  </script> */}
-      {/* <script type="text/javascript" id="woocommerce-js-extra">
-   
-    var woocommerce_params = { "ajax_url": "\/crypto\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/crypto\/?wc-ajax=%%endpoint%%" };
-
-  </script> */}
-      {/* <script type="text/javascript" id="wc-cart-fragments-js-extra">
-   
-    var wc_cart_fragments_params = { "ajax_url": "\/crypto\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/crypto\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_a248712382db706dee7ffcda2088d4ce", "fragment_name": "wc_fragments_a248712382db706dee7ffcda2088d4ce", "request_timeout": "5000" };
-
-  </script> */}
-      {/* <script type="text/javascript"> jQuery(document).ready(function ($) { "use strict"; });</script> */}
-
     </>
 
   )
