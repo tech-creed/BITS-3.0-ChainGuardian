@@ -3,3 +3,5 @@
 
 /chain_guardian/node_modules
 /chain_guardian/package-lock.json
+
+/node_modules
