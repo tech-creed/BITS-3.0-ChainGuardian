@@ -778,7 +778,7 @@ ul.page-numbers .current:hover,
 
 .sh-section-c483c8cff833905d38ec4da2f6cd2711 {
     padding: 200px 0px 100px 0px;
-    background-image: url(//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-01.jpg);
+    background-image: url(../wp-content/images/Layer-01.jpg);
     background-color: #19171c;
 }
 
@@ -1147,10 +1147,10 @@ ul.page-numbers .current:hover,
     margin: 0px 0px 40px 0px;
     border-radius: 8px 8px 8px 8px;
     background-color: #242424;
-    background-image: url(//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/walllet_icon2.png);
+    background-image: url(../wp-content/images/8805163.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: right top;
+    background-position: center top;
 }
 
 .sh-column-48a4b125d1127ab87ffc2002397e4238 .sh-column-wrapper {
@@ -1230,10 +1230,10 @@ ul.page-numbers .current:hover,
     margin: 0px 0px 40px 0px;
     border-radius: 8px 8px 8px 8px;
     background-color: #242424;
-    background-image: url(//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/arrow.png);
+    background-image: url(../wp-content/images/2810114.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: right top;
+    background-position: center top;
 }
 
 @media (max-width: 800px) {
@@ -1307,10 +1307,10 @@ ul.page-numbers .current:hover,
     padding: 70px 50px 70px 50px;
     border-radius: 8px 8px 8px 8px;
     background-color: #242424;
-    background-image: url(//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/nosign.png);
+    background-image: url(../wp-content/images/4745903.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: right top;
+    background-position: center top;
 }
 
 @media (max-width: 800px) {
@@ -1378,10 +1378,10 @@ ul.page-numbers .current:hover,
     padding: 70px 50px 70px 50px;
     border-radius: 8px 8px 8px 8px;
     background-color: #242424;
-    background-image: url(//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/globe.png);
+    background-image: url(../wp-content/images/extracting-data.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: right top;
+    background-position: center top;
 }
 
 @media (max-width: 800px) {
@@ -1449,10 +1449,10 @@ ul.page-numbers .current:hover,
     padding: 70px 50px 70px 50px;
     border-radius: 8px 8px 8px 8px;
     background-color: #242424;
-    background-image: url(//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/check.png);
+    background-image: url(../wp-content/images/markel_tree-removebg-preview\ \(1\).png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: right top;
+    background-position: center top;
 }
 
 @media (max-width: 800px) {
@@ -3037,6 +3037,19 @@ ul.page-numbers .current:hover,
 
 #icon-group-7d93777db3c9cb354a6fa72808578d69 .sh-icon-group-item i {
     color: #bebebe;
+}
+
+.sh-button-nav {
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #f3ba40;
+    color: #353535;
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.25);
+    padding-bottom: 50px;
+}
+
+.sh-button-container-nav {
+    margin: 16px auto;
 }
 
 .sh-page-loader {
