@@ -1,18 +1,35 @@
 import React from 'react'
-import { BrowserRouter,Route,Routes } from 'react-router-dom'
+import { BrowserRouter,Route,Routes,Navigate } from 'react-router-dom'
+
 
 //pages
 import LandingPage from './pages/LandingPage'
 import Signup from './pages/signup'
 
+//context provider
+import { useAuthContext } from './hooks/useAuthContext';
+
 
 function App() {
+  const {user} = useAuthContext()
   return (
     <div className="App">
     <BrowserRouter>
         <Routes>
-          <Route path='/' element={<LandingPage />}/>
-          <Route path='/auth/signup' element={<Signup />}/>
+          <Route path='/landing' element={<LandingPage />}/>
+          <Route
+              path='/signup'
+              element={!user ? <Signup/> : <Navigate to='/'/>}
+            />
+            {/* <Route
+              path='/login'
+              element={!user ? <Login/> : <Navigate to='/'/>}
+            /> */}
+            {/* <Route
+              path='/'
+              element={user ? <Dashboard/> : <Navigate to='/login'/>}
+            /> */}
+
         </Routes>
     </BrowserRouter>
     </div>
