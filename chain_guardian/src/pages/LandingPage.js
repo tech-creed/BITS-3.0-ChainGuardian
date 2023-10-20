@@ -100,21 +100,21 @@ const LandingPage = () => {
                             <li id="menu-item-958"
                               className="menu-item menu-item-type-custom menu-item-object-custom menu-item-958"><a
                                 href="#roadmap">How It Works</a></li>
-                            
+
                             <li id="menu-item-1753"
                               className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1753"><a
                                 href="#contacts">Contacts</a></li>
-                            
+
                             <li id="menu-item-738"
                               className="menu-item menu-item-type-custom menu-item-object-custom menu-item-738"><a
                                 href="#about">About</a></li>
                             <li id="menu-item-1753"
                               className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1753">
-                                  <div id="button-4f9d3fba0f31cf799095f9515088e51d" style={{boxSizing:'content-box'}} className="sh-button-container-nav  sh-button-style-1">
-                                      <a href="/login" className="sh-button-nav sh-button-large">
-                                          Login
-                                      </a>
-                                </div>
+                              <div id="button-4f9d3fba0f31cf799095f9515088e51d" style={{ boxSizing: 'content-box' }} className="sh-button-container-nav  sh-button-style-1">
+                                <a href="/login" className="sh-button-nav sh-button-large">
+                                  Login
+                                </a>
+                              </div>
                             </li>
                           </ul>
                         </div>
@@ -186,11 +186,11 @@ const LandingPage = () => {
                           <div id="button-4f9d3fba0f31cf799095f9515088e51d" className="sh-button-container  sh-button-style-1">
                             <div className="sh-element-margin">
                               <a href="/signin" target="_self" className="sh-button sh-button-large ">
-                              <span className="sh-button-icon">
-                              <i class="fa-sharp fa-solid fa-magnifying-glass-dollar fa-sm" style={{color: '#4e4c46'}}></i>
+                                <span className="sh-button-icon">
+                                  <i class="fa-sharp fa-solid fa-magnifying-glass-dollar fa-sm" style={{ color: '#4e4c46' }}></i>
                                 </span>
                                 <span className="sh-button-text">
-                                Get Started </span>
+                                  Get Started </span>
                               </a>
                             </div>
                           </div>
@@ -204,10 +204,10 @@ const LandingPage = () => {
                             <div className="sh-element-margin">
                               <a href="#roadmap" target="_self" className="sh-button sh-button-large sh-button-icon-left">
                                 <span className="sh-button-icon">
-                                <i class="fa-sharp fa-solid fa-info" style={{color: '#fdba40'}}></i>
+                                  <i class="fa-sharp fa-solid fa-info" style={{ color: '#fdba40' }}></i>
                                 </span>
                                 <span className="sh-button-text">
-                                Learn More </span>
+                                  Learn More </span>
                               </a>
                             </div>
                           </div>
@@ -288,7 +288,7 @@ const LandingPage = () => {
                           <div className="sh-empty-space" id="empty-space-0e1656083d723b6767075331a909be92"></div>
                           <div className="sh-heading sh-heading-style1" id="heading-dcfbe20e6621d8c7f6351a2bb20fe488">
                             <h1 className="sh-heading-content size-m">
-                              <span style={{ textAlign: 'center', color: '#f4d157'  }}>Wallet ID Tracking</span>
+                              <span style={{ textAlign: 'center', color: '#f4d157' }}>Wallet ID Tracking</span>
                             </h1>
                           </div>
                           <div className="sh-empty-space" id="empty-space-5368c3cb250821508ff627b2446c9580"></div>
@@ -314,7 +314,7 @@ const LandingPage = () => {
                           <div className="sh-empty-space" id="empty-space-ac5aac6afc17bb61b01c3907e828925d"></div>
                           <div className="sh-heading sh-heading-style1" id="heading-295d9546f086b1a07601e3f9c4d777c6">
                             <h1 className="sh-heading-content size-m">
-                              <span style={{ textAlign: 'center', color: '#f4d157'  }}>Blockchain Network Monitoring</span>
+                              <span style={{ textAlign: 'center', color: '#f4d157' }}>Blockchain Network Monitoring</span>
                             </h1>
                           </div>
                           <div className="sh-empty-space" id="empty-space-f37d2ccf9dc464f350e99257975757fc"></div>
@@ -338,7 +338,7 @@ const LandingPage = () => {
                           <div className="sh-empty-space" id="empty-space-85dd442a89875cb4bbb62fcb91d66c8c"></div>
                           <div className="sh-heading sh-heading-style1" id="heading-9ecbb52a973367a4337c5a5d2908b536">
                             <h1 className="sh-heading-content size-m">
-                              <span style={{ textAlign: 'center', color: '#f4d157'  }}>Data Extraction and Processing</span>
+                              <span style={{ textAlign: 'center', color: '#f4d157' }}>Data Extraction and Processing</span>
                             </h1>
                           </div>
                           <div className="sh-empty-space" id="empty-space-b640eafcdd96f74f5bd764a21c2b30dc"></div>
@@ -362,7 +362,7 @@ const LandingPage = () => {
                           <div className="sh-empty-space" id="empty-space-0f534521ab13a4deb718b8da5c11bab5"></div>
                           <div className="sh-heading sh-heading-style1" id="heading-c97c155a58b283c24360913d626b32e9">
                             <h1 className="sh-heading-content size-m">
-                              <span style={{ textAlign: 'center', color: '#f4d157'  }}>Visual Merkel Tree Analysis</span>
+                              <span style={{ textAlign: 'center', color: '#f4d157' }}>Visual Merkel Tree Analysis</span>
                             </h1>
                           </div>
                           <div className="sh-empty-space" id="empty-space-73c0fb3cf42248c87a73fd600e008bd3"></div>
@@ -406,9 +406,9 @@ const LandingPage = () => {
                           <div id="text-block-3b865619c2b119bc5c1a8f513f152a4b" className="sh-text-block">
                             <p>ChainGuardian streamlines the process of <span style={{ color: '#f3ba40' }}>identifying suspicious or illicit cryptocurrency transactions</span> by seamlessly integrating blockchain APIs and advanced algorithms. It starts by fetching the latest transaction data from relevant blockchain networks and determines the specific network associated with the provided address, be it Bitcoin, Ethereum, or others.</p>
                             <p>ChainGuardian then employs sophisticated <span style={{ color: '#f3ba40' }}>algorithms to analyze transaction histories and data, automatically detecting anomalies and irregular behaviors</span>. It subsequently assesses the data for potentially suspicious activities, providing users with actionable insights to enhance security and compliance, all in a single, seamless process.</p>
-                            
+
                           </div>
-                
+
                         </div>
                       </div>
                     </div>
@@ -488,7 +488,7 @@ const LandingPage = () => {
                               </div>
                               <div className="sh-iconbox-seperator"></div>
                               <div className="sh-iconbox-content">
-                              <p><span style={{ fontSize: '14px' }}>Our journey takes a deeper dive as we introduce advanced algorithms, meticulously designed to scrutinize every aspect of the transaction history and associated data. These algorithms are the guiding compass in our quest for anomalies and suspicious activities.</span></p>
+                                <p><span style={{ fontSize: '14px' }}>Our journey takes a deeper dive as we introduce advanced algorithms, meticulously designed to scrutinize every aspect of the transaction history and associated data. These algorithms are the guiding compass in our quest for anomalies and suspicious activities.</span></p>
                               </div>
                             </div>
                           </div>
@@ -506,9 +506,9 @@ const LandingPage = () => {
                               </div>
                               <div className="sh-iconbox-seperator"></div>
                               <div className="sh-iconbox-content">
-                              <p><span style={{ fontSize: '14px' }}> Our automated systems are programmed to detect anomalies within the data. This includes recognizing unusual transaction behaviors, irregular patterns, or any activity that may raise suspicion. By identifying anomalies, ChainGuardian takes a proactive stance in ensuring data integrity and user security.</span></p>
-                              <p><span style={{ fontSize: '14px' }}> After detecting anomalies, ChainGuardian's assessment mechanisms step in to thoroughly evaluate the data. This evaluation process allows us to pinpoint and assess potentially suspicious activities, ensuring that our users have the necessary insights to take appropriate actions, whether for security or compliance purposes.</span></p>
-                              
+                                <p><span style={{ fontSize: '14px' }}> Our automated systems are programmed to detect anomalies within the data. This includes recognizing unusual transaction behaviors, irregular patterns, or any activity that may raise suspicion. By identifying anomalies, ChainGuardian takes a proactive stance in ensuring data integrity and user security.</span></p>
+                                <p><span style={{ fontSize: '14px' }}> After detecting anomalies, ChainGuardian's assessment mechanisms step in to thoroughly evaluate the data. This evaluation process allows us to pinpoint and assess potentially suspicious activities, ensuring that our users have the necessary insights to take appropriate actions, whether for security or compliance purposes.</span></p>
+
                               </div>
                             </div>
                           </div>
