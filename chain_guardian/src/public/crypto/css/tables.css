@@ -1,0 +1,17 @@
+table{
+    width: 90vw;
+}
+
+.table-main{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    color: white;
+}
+
+td{
+    padding: 12px;
+    color: white!important;
+}
