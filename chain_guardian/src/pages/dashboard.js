@@ -1,14 +1,14 @@
 import React, { useContext, useState } from 'react'
-
+import {Link} from 'react-router-dom'
 import {
     Card,
     CardBody,
     CardFooter,
     Typography,
     Button,
-} from "@material-tailwind/react";
-import { RocketLaunchIcon } from "@heroicons/react/24/solid";
-import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
+} from "@material-tailwind/react" 
+import { RocketLaunchIcon } from "@heroicons/react/24/solid" 
+import { ArrowLongRightIcon } from "@heroicons/react/24/outline" 
 
 import useAddress from '../hooks/useAddress'
 import TransSingleSection from '../components/singleTransaction'
@@ -20,48 +20,40 @@ const Dashboard = () => {
     const [err, setError] = useState(null)
     const [data, setData] = useState(null)
     const [isPending, setPending] = useState(false)
-    const { error, data: chainName, getChain } = useAddress()
+    const { error, data: chainName, getChain,isLoading } = useAddress()
 
     const [isAddressValid, setAddressValid] = useState(false)
-
     const handleSubmit = async (e) => {
-        e.preventDefault()
-        getChain(address)
-        setError(null)
-        setPending(true)
-        if (!error) {
-            if(chainName == null){
-                setPending(false)
-            }else{
-                const response = await fetch(`/api/addressData/${chainName.chain}/${address}`)
-                const json = await response.json()
-                console.log(json)
-                if (!response.ok) {
-                    setPending(false)
-                    // dispatch({type:"ERROR",payload:null})
-                    setData(null)
-                    setError(json.error)
-                }
+        e.preventDefault() 
     
-                if (response.ok) {
-                    setPending(false)
-                    setError(null)
-                    setData(json)
-                    // dispatch({type:"ADD",payload:json})
-                    //console.log(address,chainName)
-                    localStorage.setItem('chain',chainName.chain)
-                    localStorage.setItem('address',address)
-                }
+        if (!isLoading) {
+          const chainResponse = await getChain(address) 
+    
+          if (chainResponse.error) {
+            setPending(false) 
+            setAddressValid(true) 
+            setError(chainResponse.error) 
+          } else {
+            // Proceed with the second fetch
+            const response = await fetch(`/api/addressData/${chainResponse.chain}/${address}`) 
+            const json = await response.json() 
+            console.log(json) 
+    
+            if (!response.ok) {
+              setPending(false) 
+              setData(null) 
+              setError(json.error) 
+            } else {
+              setPending(false) 
+              setError(null) 
+              setData(json) 
+              localStorage.setItem('chain', chainResponse.chain) 
+              localStorage.setItem('address', address) 
             }
-            
+          }
         }
+      } 
 
-        else if ((isPending === false) && (chainName !== null)) {
-            setAddressValid(false)
-        } else {
-            setAddressValid(true)
-        }
-    }
     return (
         <>
         <Navbar/>
@@ -117,12 +109,12 @@ const Dashboard = () => {
                 </CardBody>
                 
                 <CardFooter className="ransition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 pt-0 mt-5 bg-indigo-600 rounded-md w-48">
-                    <a href="/tree" className="inline-block">
+                    <Link href="/tree" className="inline-block">
                         <Button size="sm" variant="text" className="flex items-center text-white gap-2">
                         Node Visualize
                             <ArrowLongRightIcon strokeWidth={2} className="w-4 h-4" />
                         </Button>
-                    </a>
+                    </Link>
                 </CardFooter>
             </Card></>}
             <div className='text-sky-500 text-2xl underline-offset-1 pt-4'>Recent Transactions</div>
@@ -131,4 +123,4 @@ const Dashboard = () => {
     )
 }
  
-export default Dashboard;
+export default Dashboard 
