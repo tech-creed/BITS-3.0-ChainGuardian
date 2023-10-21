@@ -7,9 +7,11 @@ import {
     Typography,
     Button,
 } from "@material-tailwind/react";
-import { RocketLaunchIcon } from "@heroicons/react/24/solid"
-import { ArrowLongRightIcon } from "@heroicons/react/24/outline"
+import { RocketLaunchIcon } from "@heroicons/react/24/solid";
+import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
+import useAddress from '../hooks/useAddress'
+import TransSingleSection from '../components/singleTransaction'
 import Navbar from '../components/navbar'
 
 const Dashboard = () => {
@@ -18,15 +20,54 @@ const Dashboard = () => {
     const [err, setError] = useState(null)
     const [data, setData] = useState(null)
     const [isPending, setPending] = useState(false)
+    const { error, data: chainName, getChain } = useAddress()
 
     const [isAddressValid, setAddressValid] = useState(false)
 
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        getChain(address)
+        setError(null)
+        setPending(true)
+        if (!error) {
+            if(chainName == null){
+                setPending(false)
+            }else{
+                const response = await fetch(`/api/addressData/${chainName.chain}/${address}`)
+                const json = await response.json()
+                console.log(json)
+                if (!response.ok) {
+                    setPending(false)
+                    // dispatch({type:"ERROR",payload:null})
+                    setData(null)
+                    setError(json.error)
+                }
+    
+                if (response.ok) {
+                    setPending(false)
+                    setError(null)
+                    setData(json)
+                    // dispatch({type:"ADD",payload:json})
+                    //console.log(address,chainName)
+                    localStorage.setItem('chain',chainName.chain)
+                    localStorage.setItem('address',address)
+                }
+            }
+            
+        }
+
+        else if ((isPending === false) && (chainName !== null)) {
+            setAddressValid(false)
+        } else {
+            setAddressValid(true)
+        }
+    }
     return (
         <>
         <Navbar/>
         <div className='w-full pt-4 bg-gray-bg1'>
             <div className='w-full rounded-lg shadow-default'>
-                <form onSubmit={()=>{}} className="grid grid-cols-10 gap-4">
+                <form onSubmit={handleSubmit} className="grid grid-cols-10 gap-4">
                     <div className="col-span-8">
                         <input
                             type='text'

@@ -5,7 +5,7 @@ const fs = require('fs')
 
 const accValidator = async (req, res) => {
     const address = req.params.address
-  
+    console.log(address)
     if (!address) {
       return res.status(400).json({ error: 'Missing parameters' })
     }

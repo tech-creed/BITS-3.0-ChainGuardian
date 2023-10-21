@@ -1,9 +1,19 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import '../public/crypto/wp-content/cache/autoptimize/19/css/autoptimize_504645c3edd2f8dd01dd835906df8aef.css'
 import '../public/crypto/wp-content/cache/autoptimize/19/css/autoptimize_541e2ced151704f4ff1844c6de47ec02.css'
 import '../public/crypto/css/landingPageStyles.css'
+
+const landingPageClassNames = `
+  home page-template-default page page-id-430 theme-jevelin woocommerce-no-js
+  wpb-js-composer js-comp-ver-6.7.0 vc_responsive sh-header-mobile-spacing-compact
+  sh-body-header-sticky sh-blog-style2 carousel-dot-style1
+  carousel-dot-spacing-5px carousel-dot-size-standard
+`;
+
 const LandingPage = () => {
+  document.body.className = landingPageClassNames;
   return (
     <>
       <div id="page-container" className>
@@ -16,20 +26,13 @@ const LandingPage = () => {
                     <div className="sh-table-cell sh-group">
                       {/* logo */}
                       {/* <div className="header-logo sh-group-equal">
-                    <a href="" className="header-logo-container sh-table-small"
-                      rel="home">
-                      <div className="sh-table-cell">
-                        <img className="sh-standard-logo"
-                          src=""
-                          alt="" />
-                        <img className="sh-sticky-logo"
-                          src=""
-                          alt="" />
-                        <img className="sh-light-logo"
-                          src=""
-                          alt="" />
-                      </div>
-                    </a>
+                    <Link to="/" className="header-logo-container sh-table-small" rel="home">
+      <div className="sh-table-cell">
+        <img className="sh-standard-logo" src="" alt="" />
+        <img className="sh-sticky-logo" src="" alt="" />
+        <img className="sh-light-logo" src="" alt="" />
+      </div>
+    </Link>
                   </div> */}
                     </div>
                     <div className="sh-table-cell">
@@ -71,20 +74,13 @@ const LandingPage = () => {
                     <div className="sh-table-cell sh-group">
                       {/* logo */}
                       {/* <div className="header-logo sh-group-equal">
-                    <a href="" className="header-logo-container sh-table-small"
-                      rel="home">
-                      <div className="sh-table-cell">
-                        <img className="sh-standard-logo"
-                          src=""
-                          alt="" />
-                        <img className="sh-sticky-logo"
-                          src=""
-                          alt="" />
-                        <img className="sh-light-logo"
-                          src=""
-                          alt="" />
-                      </div>
-                    </a>
+                    <Link to="/" className="header-logo-container sh-table-small" rel="home">
+      <div className="sh-table-cell">
+        <img className="sh-standard-logo" src="" alt="" />
+        <img className="sh-sticky-logo" src="" alt="" />
+        <img className="sh-light-logo" src="" alt="" />
+      </div>
+    </Link>
                   </div> */}
                     </div>
                     <div className="sh-table-cell">
@@ -108,14 +104,8 @@ const LandingPage = () => {
                             <li id="menu-item-738"
                               className="menu-item menu-item-type-custom menu-item-object-custom menu-item-738"><a
                                 href="#about">About</a></li>
-                            <li id="menu-item-1753"
-                              className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1753">
-                              <div id="button-4f9d3fba0f31cf799095f9515088e51d" style={{ boxSizing: 'content-box' }} className="sh-button-container-nav  sh-button-style-1">
-                                <a href="/login" className="sh-button-nav sh-button-large">
-                                  Login
-                                </a>
-                              </div>
-                            </li>
+                                <a className="color-login" href="#blog">News</a>
+                              
                           </ul>
                         </div>
                       </nav>
@@ -185,13 +175,13 @@ const LandingPage = () => {
                         <div className="sh-column-wrapper">
                           <div id="button-4f9d3fba0f31cf799095f9515088e51d" className="sh-button-container  sh-button-style-1">
                             <div className="sh-element-margin">
-                              <a href="/signin" target="_self" className="sh-button sh-button-large ">
+                              <Link to="/signup" className="sh-button sh-button-large ">
                                 <span className="sh-button-icon">
-                                  <i class="fa-sharp fa-solid fa-magnifying-glass-dollar fa-sm" style={{ color: '#4e4c46' }}></i>
+                                  <i className="fa-sharp fa-solid fa-magnifying-glass-dollar fa-sm" style={{ color: '#4e4c46' }}></i>
                                 </span>
                                 <span className="sh-button-text">
                                   Get Started </span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -202,13 +192,10 @@ const LandingPage = () => {
                         <div className="sh-column-wrapper">
                           <div id="button-16f174007b35358724c761c465661663" className="sh-button-container  sh-button-style-1">
                             <div className="sh-element-margin">
-                              <a href="#roadmap" target="_self" className="sh-button sh-button-large sh-button-icon-left">
-                                <span className="sh-button-icon">
-                                  <i class="fa-sharp fa-solid fa-info" style={{ color: '#fdba40' }}></i>
-                                </span>
+                              <Link to="/login" target="_self" className="sh-button sh-button-large sh-button-icon-left">
                                 <span className="sh-button-text">
-                                  Learn More </span>
-                              </a>
+                                  Login </span>
+                              </Link>
                             </div>
                           </div>
                         </div>

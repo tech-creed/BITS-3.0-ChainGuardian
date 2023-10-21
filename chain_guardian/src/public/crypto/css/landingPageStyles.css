@@ -1444,6 +1444,18 @@ ul.page-numbers .current:hover,
     float: left;
     margin: 8px 10px 0 0;
 }
+.color-login{
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffffD9;
+  background: #f3ba40;
+  text-decoration: none;
+  padding: 5px 20px 5px 20px !important;
+  margin: 30px 5px 30px 5px !important;
+  float: left;
+  border-bottom: 0 solid transparent
+}
 
 .sh-column-a2e969c871e50343ccf1a6076d185caa .sh-column-wrapper {
     padding: 70px 50px 70px 50px;
