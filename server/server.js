@@ -14,12 +14,15 @@ const PORT = process.env.PORT || 8080
 
 // routes
 const apiRoute = require('./routes/apiRoute')
+const newsRoute = require('./routes/newsRoutes')
+
 
 app.listen(PORT, () => {
     console.log("server listening on port " + PORT)
 })
 
 app.use("/api", apiRoute)
+app.use("/news", newsRoute)
 
 // routes for api handling
 app.use("/",(req,res)=>{
