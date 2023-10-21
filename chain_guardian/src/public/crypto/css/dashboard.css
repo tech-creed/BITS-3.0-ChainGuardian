@@ -370,7 +370,7 @@ body {
     box-sizing: inherit;
   }
   
-  body {
+  .dashboard {
     min-height: 100vh;
     display: flex;
     font-family: "Inter", Arial;
@@ -378,11 +378,4 @@ body {
     align-items: center;
     background-color: var(--background-color);
     overflow: hidden;
-  }
-  body:before {
-    content: "";
-    position: absolute;
-    inset: 0 -60% 65% -60%;
-    background-image: radial-gradient(ellipse at top, #10B981 0%, var(--background-color) 50%);
-    opacity: var(--blur-opacity);
   }

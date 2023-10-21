@@ -5,14 +5,15 @@ import Navbar from '../components/navbar'
 const Dashboard = () => {
     return (
         <><Navbar/>
-            <div class="grid">
+        <div className='dashboard'>
+        <div className="grid">
                 <Link to='/address'>
-                    <div class="card">
-                        <span class="icon">
-                            <svg class="card-icon" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                    <div className="card">
+                        <span className="icon">
+                            <svg className="card-icon" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
                                 stroke-width="1.2"
                                 stroke-linecap="round"
-                                stroke-linejoin="round" className="bi bi-cash" viewBox="0 0 24 24">
+                                stroke-linejoin="round" class="bi bi-cash" viewBox="0 0 24 24">
                                 <path d="M0 2a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V2z" />
                                 <path d="M0 7a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7z" />
                                 <path d="M1 10.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5V10H1v.5z" />
@@ -24,10 +25,10 @@ const Dashboard = () => {
                     </div>
                 </Link>
                 <Link to='/transaction'>
-                <div class="card">
-                    <span class="icon">
+                <div className="card">
+                    <span className="icon">
 
-                        <svg class="card-icon" xmlns="http://www.w3.org/2000/svg" className="bi bi-wallet" viewBox="0 0 24 24"
+                        <svg className="card-icon" xmlns="http://www.w3.org/2000/svg" class="bi bi-wallet" viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
                             stroke-width="1.2"
@@ -43,6 +44,9 @@ const Dashboard = () => {
                 </Link>
                 
             </div>
+        </div>
+    
+            
         </>
     )
 }

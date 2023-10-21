@@ -9,6 +9,7 @@ import TransactionSection from '../components/transactionSec'
 import Navbar from '../components/navbar'
 import Find from '../components/Find'
 import Table from '../components/Table'
+import '../public/crypto/css/addressPage.css'
 
 function Transaction() {
   const { error, isPending, data, getTransaction } = useTransaction()
@@ -33,6 +34,7 @@ function Transaction() {
   return (
     <>
       <Navbar/>
+      <div className='transactionPage' ></div>
       <Find handleSubmit={handleSubmit}/>
       {data && <TransactionSection data={data} txnId={Id}/>}
       {data && <Table data={data}/>}

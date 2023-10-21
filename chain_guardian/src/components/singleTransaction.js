@@ -9,21 +9,19 @@ import {
 const TransSingleSection = ({ data }) => {
     return (
         <>
-            <Card className="mt-6 w-full bg-white rounded-lg p-10">
+            <Card className="mt-6 text-black w-full bg-white rounded-lg p-10">
                 <CardBody>
                     <Typography className='grid grid-rows-6 grid-flow-col gap-4'>
-                    <div className="font-semibold">Transaction ID</div>
-                        <div>{data[0]}</div>
-                        <div className="font-semibold">block_id</div>
-                        <div>{data[1].block_id}</div>
-                        <div className="font-semibold">sender</div>
-                        <div>{data[1].sender}</div>
-                        <div className="font-semibold">receiver</div>
-                        <div>{data[1].receiver}</div>
-                        <div className="font-semibold">time</div>
-                        <div>{data[1].time}</div>
-                        <div className="font-semibold">transferred</div>
-                        <div>{data[1].transferred}</div>
+                    <div className="font-semibold" style={{ marginRight: '1rem' }}>Transaction ID</div>
+                        <div style={{ marginRight: '1rem' }}>{data[0]}</div>
+                        <div className="font-semibold" style={{ marginRight: '1rem' }}>block_id</div>
+                        <div style={{ marginRight: '1rem' }}>{data[1].block_id}</div>
+                        <div style={{ marginRight: '1rem' }} className="font-semibold">sender</div>
+                        <div style={{ marginRight: '1rem' }}>{data[1].sender}</div>
+                        <div style={{ marginLeft: '13rem' }} className="font-semibold">date</div>
+                        <div style={{ marginLeft: '13rem' }}>{data[1].receiver}</div>
+                        <div style={{ marginLeft: '13rem' }} className="font-semibold">time</div>
+                        <div style={{ marginLeft: '13rem' }}>{data[1].time}</div>
                     </Typography>
                 </CardBody>
             </Card>
