@@ -20,7 +20,7 @@ const Dashboard = () => {
                                 <path d="M6 16a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H6zM0 9a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1H0V9z" />
                             </svg>
                         </span>
-                        <h4>Analyze Wallet Addresses</h4>
+                        <h4 style={{color:'#34D399'}}>Analyze Wallet Addresses</h4>
                         <p>Gain detailed insights into cryptocurrency wallet addresses by providing a public address for a specific coin. Our system offers comprehensive information, including transaction history, balances, and associated activities, ensuring you stay informed and secure through in-depth wallet analysis.</p>
                     </div>
                 </Link>
@@ -37,7 +37,7 @@ const Dashboard = () => {
                             <path d="M1 0.5a.5.5 0 0 1 .5.5V4h13V1a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v14a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-3H1v3a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-14a.5.5 0 0 1 .5-.5h2zM0 6v13a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5V6H0z" />
                         </svg>
                     </span>
-                    <h4>Transaction Analysis</h4>
+                    <h4 style={{color:'#34D399'}}>Transaction Analysis</h4>
                     <p>Analyze the cryptocurrency transactions with our powerful analysis tools. Enter a transaction ID, and ChainGuardian reveals sender and receiver data, transaction history, confirmations, and more, making the complexities of your crypto transactions easily understandable
                     </p>
                 </div>

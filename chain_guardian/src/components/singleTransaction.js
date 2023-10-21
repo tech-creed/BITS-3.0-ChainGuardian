@@ -18,11 +18,13 @@ const TransSingleSection = ({ data }) => {
                         <div style={{ marginRight: '1rem' }}>{data[1].block_id}</div>
                         <div style={{ marginRight: '1rem' }} className="font-semibold">sender</div>
                         <div style={{ marginRight: '1rem' }}>{data[1].sender}</div>
-                        <div style={{ marginLeft: '13rem' }} className="font-semibold">date</div>
+                        <div style={{ marginLeft: '13rem' }} className="font-semibold">receiver</div>
                         <div style={{ marginLeft: '13rem' }}>{data[1].receiver}</div>
                         <div style={{ marginLeft: '13rem' }} className="font-semibold">time</div>
                         <div style={{ marginLeft: '13rem' }}>{data[1].time}</div>
-                    </Typography>
+                        <div style={{ marginLeft: '13rem' }} className="font-semibold">transferred</div>
+                        <div style={{ marginLeft: '13rem' }} >{data[1].transferred}</div>
+                    </Typography> 
                 </CardBody>
             </Card>
         </>

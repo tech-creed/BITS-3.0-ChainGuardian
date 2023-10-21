@@ -34,10 +34,14 @@ function Transaction() {
   return (
     <>
       <Navbar/>
-      <div className='transactionPage' ></div>
+
+      <div className='transactionPage'>
+      <h1 className='text-3xl font-bold text-yellow-400'>Enter the Transaction ID:</h1>
+
       <Find handleSubmit={handleSubmit}/>
       {data && <TransactionSection data={data} txnId={Id}/>}
       {data && <Table data={data}/>}
+      </div>
     </>
   )
 }
