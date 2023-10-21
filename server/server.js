@@ -15,6 +15,8 @@ const PORT = process.env.PORT || 8080
 // routes
 const apiRoute = require('./routes/apiRoute')
 const newsRoute = require('./routes/newsRoutes')
+const graphRoute = require('./routes/graphRoutes')
+
 
 
 app.listen(PORT, () => {
@@ -23,8 +25,10 @@ app.listen(PORT, () => {
 
 app.use("/api", apiRoute)
 app.use("/news", newsRoute)
+app.use("/graph", graphRoute)
+
 
 // routes for api handling
 app.use("/",(req,res)=>{
-    res.send('landing page')
+    res.send('Welcome to the API Service for ChainGuardian')
 })
