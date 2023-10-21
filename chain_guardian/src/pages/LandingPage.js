@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../public/crypto/wp-content/images/ChainGuardian.png'
 
 import '../public/crypto/wp-content/cache/autoptimize/19/css/autoptimize_504645c3edd2f8dd01dd835906df8aef.css'
 import '../public/crypto/wp-content/cache/autoptimize/19/css/autoptimize_541e2ced151704f4ff1844c6de47ec02.css'
@@ -25,15 +26,15 @@ const LandingPage = () => {
                   <div className="sh-table">
                     <div className="sh-table-cell sh-group">
                       {/* logo */}
-                      {/* <div className="header-logo sh-group-equal">
-                    <Link to="/" className="header-logo-container sh-table-small" rel="home">
-      <div className="sh-table-cell">
-        <img className="sh-standard-logo" src="" alt="" />
-        <img className="sh-sticky-logo" src="" alt="" />
-        <img className="sh-light-logo" src="" alt="" />
-      </div>
-    </Link>
-                  </div> */}
+                      <div className="header-logo sh-group-equal">
+                        <Link to="/" className="header-logo-container sh-table-small" rel="home">
+                          <div className="sh-table-cell">
+                            <img className="sh-standard-logo" src={Logo} alt="" style={{width:'75px',height:'75px'}}/>
+                            <img className="sh-sticky-logo" src={Logo} alt="" style={{width:'75px',height:'75px'}}/>
+                            <img className="sh-light-logo" src={Logo} alt="" style={{width:'75px',height:'75px'}}/>
+                          </div>
+                        </Link>
+                      </div>
                     </div>
                     <div className="sh-table-cell">
                       <nav id="header-navigation-mobile" className="header-standard-position">
@@ -73,15 +74,15 @@ const LandingPage = () => {
                   <div className="sh-table">
                     <div className="sh-table-cell sh-group">
                       {/* logo */}
-                      {/* <div className="header-logo sh-group-equal">
-                    <Link to="/" className="header-logo-container sh-table-small" rel="home">
-      <div className="sh-table-cell">
-        <img className="sh-standard-logo" src="" alt="" />
-        <img className="sh-sticky-logo" src="" alt="" />
-        <img className="sh-light-logo" src="" alt="" />
-      </div>
-    </Link>
-                  </div> */}
+                      <div className="header-logo sh-group-equal">
+                        <Link to="/" className="header-logo-container sh-table-small" rel="home">
+                          <div className="sh-table-cell">
+                            <img className="sh-standard-logo" src={Logo} alt="" style={{width:'75px',height:'75px'}}/>
+                            <img className="sh-sticky-logo" src={Logo} alt="" style={{width:'75px',height:'75px'}}/>
+                            <img className="sh-light-logo" src={Logo} alt="" style={{width:'75px',height:'75px'}}/>
+                          </div>
+                        </Link>
+                      </div>
                     </div>
                     <div className="sh-table-cell">
                       <nav id="header-navigation" className="header-standard-position">
@@ -104,8 +105,8 @@ const LandingPage = () => {
                             <li id="menu-item-738"
                               className="menu-item menu-item-type-custom menu-item-object-custom menu-item-738"><a
                                 href="#about">About</a></li>
-                                <a className="color-login" href="#blog">News</a>
-                              
+                            <a className="color-login" href="#blog">News</a>
+
                           </ul>
                         </div>
                       </nav>
@@ -342,7 +343,7 @@ const LandingPage = () => {
                             className="sh-icon  sh-icon-center sh-animated fadeInDown" data-wow-duration="2s">
                             <div className="sh-element-margin">
                               <div className="sh-icon-container">
-                                <i className="sh-icon-data icon-check"></i>
+                                <i class="fa-regular fa-circle-check" style={{ color: '#f3ba40' }}></i>
                               </div>
                             </div>
                           </div>
@@ -374,7 +375,7 @@ const LandingPage = () => {
                             <div className="sh-element-margin">
                               <div className="sh-single-image-container">
                                 <img className="sh-image-url"
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/05/Laptop-Pro1.png"
+                                  src="https://png.pngtree.com/png-vector/20190130/ourmid/pngtree-network-bitcoin-technology-blockchain-big-data-elements-5dthe-internetbitcoinvirtual-currencytechnologyblockchainbreathablebig-png-image_657544.jpg"
                                 />
                               </div>
                             </div>
@@ -413,7 +414,7 @@ const LandingPage = () => {
                             id="iconbox-dde2ea5eb3db052912a6aca769be9dfa">
                             <div className="sh-iconbox-icon">
                               <div className="sh-iconbox-icon-shape sh-iconbox-circle">
-                                <i className="sh-iconbox-hover icon-check"></i>
+                                <i class="fa-regular fa-circle-check" style={{ color: '#f3ba40' }}></i>
                               </div>
                             </div>
                             <div className="sh-iconbox-aside">
@@ -431,7 +432,7 @@ const LandingPage = () => {
                             id="iconbox-33d8fd9d8ef8760d17eb1e2f75929715">
                             <div className="sh-iconbox-icon">
                               <div className="sh-iconbox-icon-shape sh-iconbox-circle">
-                                <i className="sh-iconbox-hover icon-check"></i>
+                                <i class="fa-regular fa-circle-check" style={{ color: '#f3ba40' }}></i>
                               </div>
                             </div>
                             <div className="sh-iconbox-aside">
@@ -449,7 +450,7 @@ const LandingPage = () => {
                             id="iconbox-3bff5c91284673edc7adbbaeadda364e">
                             <div className="sh-iconbox-icon">
                               <div className="sh-iconbox-icon-shape sh-iconbox-circle">
-                                <i className="sh-iconbox-hover icon-check"></i>
+                                <i class="fa-regular fa-circle-check" style={{ color: '#f3ba40' }}></i>
                               </div>
                             </div>
                             <div className="sh-iconbox-aside">
@@ -466,7 +467,7 @@ const LandingPage = () => {
                             id="iconbox-2e848f3caa247fa90e286cf1d795d5f5">
                             <div className="sh-iconbox-icon">
                               <div className="sh-iconbox-icon-shape sh-iconbox-circle">
-                                <i className="sh-iconbox-hover icon-clock"></i>
+                                <i class="fa-regular fa-circle-check" style={{ color: '#f3ba40' }}></i>
                               </div>
                             </div>
                             <div className="sh-iconbox-aside">
@@ -484,7 +485,7 @@ const LandingPage = () => {
                             id="iconbox-ab5ceb3a1a3547cca78cb83b5395012d">
                             <div className="sh-iconbox-icon">
                               <div className="sh-iconbox-icon-shape sh-iconbox-circle">
-                                <i className="sh-iconbox-hover icon-clock"></i>
+                                <i class="fa-regular fa-circle-check" style={{ color: '#f3ba40' }}></i>
                               </div>
                             </div>
                             <div className="sh-iconbox-aside">
@@ -510,7 +511,7 @@ const LandingPage = () => {
                             <div className="sh-video-player-container">
                               <div className="sh-video-player-content">
                                 <iframe title="Jevelin Theme - Getting Started (outdated)" width="500" height="281"
-                                  src="https://www.youtube.com/embed/wQX8_nwylTY?feature=oembed" frameBorder="0"
+                                  src="" frameBorder="0"
                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                   allowFullScreen></iframe>
                               </div>
@@ -518,7 +519,7 @@ const LandingPage = () => {
                             <div className="sh-video-player-image-container">
                               <div className="sh-video-player-image">
                                 <img
-                                  src="//jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/05/Group-155-copy-5.png"
+                                  src="https://png.pngtree.com/png-vector/20190130/ourmid/pngtree-network-bitcoin-technology-blockchain-big-data-elements-5dthe-internetbitcoinvirtual-currencytechnologyblockchainbreathablebig-png-image_657544.jpg"
                                 />
                               </div>
                               <div className="sh-video-player-image-play">
@@ -531,488 +532,7 @@ const LandingPage = () => {
                     </div>
                   </div>
                 </section>
-                <section
-                  className="sh-section sh-section-05664e8c73dbf54f0d1792531ebf726b fw-main-row sh-section-visibility-everywhere"
-                  id="experts">
-                  <div className="sh-section-container container">
-                    <div className="fw-row">
-                      <div
-                        className="sh-column sh-column-61beae622069367ed4e648cd7e6f8d76 fw-col-xs-12 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-heading sh-heading-style1" id="heading-031ec0096d4ac5ae0f3c8db27bbde858">
-                            <h1 className="sh-heading-content size-xs">
-                              <span style={{ textAlign: 'center' }}>OUR AMAZING</span>
-                            </h1>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-a1436bf521d9fb75b0852e99f095022f"></div>
-                          <div className="sh-heading sh-heading-style1" id="heading-ad2fd48bcfc03b54a8c7bf8ee0f6706c">
-                            <h1 className="sh-heading-content size-xl">
-                              <span style={{ textAlign: 'center' }}>Team Of Experts</span>
-                            </h1>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="fw-row">
-                      <div
-                        className="sh-column sh-column-783b30d3c54e1020dbc9d96c58ca0045 fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-team sh-team-style4 sh-team-social-standard"
-                            id="team-e7d400581a13b1acfe650d196d36d95f">
-                            <div className="sh-team-image">
-                              <a href="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-926.jpg"
-                                className="sh-team-image-position" rel="lightbox">
-                                <img
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-926.jpg"
-                                />
-                              </a>
-                            </div>
-                            <div className="sh-team-aside">
-                              <div className="sh-team-name">
-                                <h3>Aria Saal</h3>
-                              </div>
-                              <div className="sh-team-role">
-                                Co-founder &amp; CEO </div>
-                              <div className="sh-team-description">
-                                <p>Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras
-                                  ornare, augue sit amet varius mollis, lacus dui laoreet </p>
-                              </div>
-                              <div className="sh-team-icons sh-team-icons-standard">
-                                <div className="sh-team-icons-container"><a href="https://jevelin.shufflehound.com"
-                                  target="_blank" className="sh-team-icon">
-                                  <div className="sh-team-icon-container">
-                                    <i className="icon-social-facebook"></i>
-                                  </div>
-                                </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-twitter"></i>
-                                    </div>
-                                  </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-linkedin"></i>
-                                    </div>
-                                  </a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="sh-column sh-column-4b5cfdd4419e2d17a401115be48478a9 fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-team sh-team-style4 sh-team-social-standard"
-                            id="team-bfd4ab8421c5cf122c517b4271f8e357">
-                            <div className="sh-team-image">
-                              <a href="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9265.jpg"
-                                className="sh-team-image-position" rel="lightbox">
-                                <img
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9265.jpg"
-                                />
-                              </a>
-                            </div>
-                            <div className="sh-team-aside">
-                              <div className="sh-team-name">
-                                <h3>Amanda Rieker</h3>
-                              </div>
-                              <div className="sh-team-role">
-                                Co-founder &amp; CTO </div>
-                              <div className="sh-team-description">
-                                <p>Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras
-                                  ornare, augue sit amet varius mollis, lacus dui laoreet </p>
-                              </div>
-                              <div className="sh-team-icons sh-team-icons-standard">
-                                <div className="sh-team-icons-container"><a href="https://jevelin.shufflehound.com"
-                                  target="_blank" className="sh-team-icon">
-                                  <div className="sh-team-icon-container">
-                                    <i className="icon-social-facebook"></i>
-                                  </div>
-                                </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-twitter"></i>
-                                    </div>
-                                  </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-linkedin"></i>
-                                    </div>
-                                  </a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="sh-column sh-column-811514d3244601065fae68bee4e88341 fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-team sh-team-style4 sh-team-social-standard"
-                            id="team-d935c82e8d5facb504e60f714b29fe49">
-                            <div className="sh-team-image">
-                              <a href="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9266.jpg"
-                                className="sh-team-image-position" rel="lightbox">
-                                <img
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9266.jpg"
-                                />
-                              </a>
-                            </div>
-                            <div className="sh-team-aside">
-                              <div className="sh-team-name">
-                                <h3>Jeremy Klark</h3>
-                              </div>
-                              <div className="sh-team-role">
-                                DEVELOPMENT LEAD </div>
-                              <div className="sh-team-description">
-                                <p>Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras
-                                  ornare, augue sit amet varius mollis, lacus dui laoreet </p>
-                              </div>
-                              <div className="sh-team-icons sh-team-icons-standard">
-                                <div className="sh-team-icons-container"><a href="https://jevelin.shufflehound.com"
-                                  target="_blank" className="sh-team-icon">
-                                  <div className="sh-team-icon-container">
-                                    <i className="icon-social-facebook"></i>
-                                  </div>
-                                </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-twitter"></i>
-                                    </div>
-                                  </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-linkedin"></i>
-                                    </div>
-                                  </a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="fw-row">
-                      <div
-                        className="sh-column sh-column-91c823b47099e3a7a8f761156fdc6e74 fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-team sh-team-style4 sh-team-social-standard"
-                            id="team-727d7ff042342ad1d555427369d4f71b">
-                            <div className="sh-team-image">
-                              <a href="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9262.jpg"
-                                className="sh-team-image-position" rel="lightbox">
-                                <img
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9262.jpg"
-                                />
-                              </a>
-                            </div>
-                            <div className="sh-team-aside">
-                              <div className="sh-team-name">
-                                <h3>Miranda Sinclare</h3>
-                              </div>
-                              <div className="sh-team-role">
-                                STRATEGY &amp; MARKETING </div>
-                              <div className="sh-team-description">
-                                <p>Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras
-                                  ornare, augue sit amet varius mollis, lacus dui laoreet </p>
-                              </div>
-                              <div className="sh-team-icons sh-team-icons-standard">
-                                <div className="sh-team-icons-container"><a href="https://jevelin.shufflehound.com"
-                                  target="_blank" className="sh-team-icon">
-                                  <div className="sh-team-icon-container">
-                                    <i className="icon-social-facebook"></i>
-                                  </div>
-                                </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-twitter"></i>
-                                    </div>
-                                  </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-linkedin"></i>
-                                    </div>
-                                  </a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="sh-column sh-column-5c99b33ec3683fdc223fe59ec1d8b871 fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-team sh-team-style4 sh-team-social-standard"
-                            id="team-4883b29d4db80eae51bbc8979d658900">
-                            <div className="sh-team-image">
-                              <a href="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9263.jpg"
-                                className="sh-team-image-position" rel="lightbox">
-                                <img
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9263.jpg"
-                                />
-                              </a>
-                            </div>
-                            <div className="sh-team-aside">
-                              <div className="sh-team-name">
-                                <h3>Brandon Wulf</h3>
-                              </div>
-                              <div className="sh-team-role">
-                                LEGAL &amp; FINANCE </div>
-                              <div className="sh-team-description">
-                                <p>Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras
-                                  ornare, augue sit amet varius mollis, lacus dui laoreet </p>
-                              </div>
-                              <div className="sh-team-icons sh-team-icons-standard">
-                                <div className="sh-team-icons-container"><a href="https://jevelin.shufflehound.com"
-                                  target="_blank" className="sh-team-icon">
-                                  <div className="sh-team-icon-container">
-                                    <i className="icon-social-facebook"></i>
-                                  </div>
-                                </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-twitter"></i>
-                                    </div>
-                                  </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-linkedin"></i>
-                                    </div>
-                                  </a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="sh-column sh-column-01e616f1b83f8e0d8309aa78c5efe28f fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-team sh-team-style4 sh-team-social-standard"
-                            id="team-a07061c8f33bd7b64868cb76cd4b652b">
-                            <div className="sh-team-image">
-                              <a href="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9264.jpg"
-                                className="sh-team-image-position" rel="lightbox">
-                                <img
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9264.jpg"
-                                />
-                              </a>
-                            </div>
-                            <div className="sh-team-aside">
-                              <div className="sh-team-name">
-                                <h3>Aaron Smith</h3>
-                              </div>
-                              <div className="sh-team-role">
-                                Front-end Developer </div>
-                              <div className="sh-team-description">
-                                <p>Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras
-                                  ornare, augue sit amet varius mollis, lacus dui laoreet </p>
-                              </div>
-                              <div className="sh-team-icons sh-team-icons-standard">
-                                <div className="sh-team-icons-container"><a href="https://jevelin.shufflehound.com"
-                                  target="_blank" className="sh-team-icon">
-                                  <div className="sh-team-icon-container">
-                                    <i className="icon-social-facebook"></i>
-                                  </div>
-                                </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-twitter"></i>
-                                    </div>
-                                  </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-linkedin"></i>
-                                    </div>
-                                  </a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <section
-                  className="sh-section sh-section-a2d09987ba78726a8c4fa4bed455aed3 fw-main-row sh-section-visibility-everywhere">
-                  <div className="sh-section-container container-fluid">
-                    <div className="fw-row">
-                      <div
-                        className="sh-column sh-column-a3ae5e2f3c8e860ae936611988bd30dd fw-col-xs-12 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-heading sh-heading-style1" id="heading-f3e14be6b02a86e92fb8b659536d1fb3">
-                            <h1 className="sh-heading-content size-xs">
-                              <span style={{ textAlign: 'center' }}>OUR HELPING</span>
-                            </h1>
-                          </div>
-                          <div className="sh-empty-space" id="empty-space-2e909c60a43ad324a0c4e90370b3ac29"></div>
-                          <div className="sh-heading sh-heading-style1" id="heading-d1be152886f6de98abeb4eb4f6098f2a">
-                            <h1 className="sh-heading-content size-xl">
-                              <span style={{ textAlign: 'center' }}>Advisors</span>
-                            </h1>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="fw-row">
-                      <div className="sh-column sh-column-777a025125f9b81269eb6d859b2c85a0 fw-col-xs-12 fw-col-sm-3">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-team sh-team-style4 sh-team-social-standard"
-                            id="team-9e04af2e850c1644d2a684235b427a3e">
-                            <div className="sh-team-image">
-                              <a href="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9267.jpg"
-                                className="sh-team-image-position" rel="lightbox">
-                                <img
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9267.jpg"
-                                />
-                              </a>
-                            </div>
-                            <div className="sh-team-aside">
-                              <div className="sh-team-name">
-                                <h3>Patricia Bright</h3>
-                              </div>
-                              <div className="sh-team-role">
-                                Board Advisor </div>
-                              <div className="sh-team-description">
-                                <p>Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras
-                                  ornare, augue sit amet varius mollis, lacus dui laoreet </p>
-                              </div>
-                              <div className="sh-team-icons sh-team-icons-standard">
-                                <div className="sh-team-icons-container"><a href="https://jevelin.shufflehound.com"
-                                  target="_blank" className="sh-team-icon">
-                                  <div className="sh-team-icon-container">
-                                    <i className="icon-social-facebook"></i>
-                                  </div>
-                                </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-twitter"></i>
-                                    </div>
-                                  </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-linkedin"></i>
-                                    </div>
-                                  </a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="sh-column sh-column-e00430ee9429721112f1c5d6f278c53d fw-col-xs-12 fw-col-sm-3 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-team sh-team-style4 sh-team-social-standard"
-                            id="team-483e5d68bcc8a104b27e7321d0e7aceb">
-                            <div className="sh-team-image">
-                              <a href="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9268.jpg"
-                                className="sh-team-image-position" rel="lightbox">
-                                <img
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9268.jpg"
-                                />
-                              </a>
-                            </div>
-                            <div className="sh-team-aside">
-                              <div className="sh-team-name">
-                                <h3>James Lincoln</h3>
-                              </div>
-                              <div className="sh-team-role">
-                                Marketing Advisor </div>
-                              <div className="sh-team-description">
-                                <p>Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras
-                                  ornare, augue sit amet varius mollis, lacus dui laoreet </p>
-                              </div>
-                              <div className="sh-team-icons sh-team-icons-standard">
-                                <div className="sh-team-icons-container"><a href="https://jevelin.shufflehound.com"
-                                  target="_blank" className="sh-team-icon">
-                                  <div className="sh-team-icon-container">
-                                    <i className="icon-social-facebook"></i>
-                                  </div>
-                                </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-twitter"></i>
-                                    </div>
-                                  </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-linkedin"></i>
-                                    </div>
-                                  </a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="sh-column sh-column-c50d299de168f6b4fb7c09c538bdf363 fw-col-xs-12 fw-col-sm-3 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-team sh-team-style4 sh-team-social-standard"
-                            id="team-0c54934a1637ebbbdb9b3d295e3d9c69">
-                            <div className="sh-team-image">
-                              <a href="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9269.jpg"
-                                className="sh-team-image-position" rel="lightbox">
-                                <img
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-9269.jpg"
-                                />
-                              </a>
-                            </div>
-                            <div className="sh-team-aside">
-                              <div className="sh-team-name">
-                                <h3>Aarav Nath</h3>
-                              </div>
-                              <div className="sh-team-role">
-                                Trading Advisor </div>
-                              <div className="sh-team-description">
-                                <p>Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras
-                                  ornare, augue sit amet varius mollis, lacus dui laoreet </p>
-                              </div>
-                              <div className="sh-team-icons sh-team-icons-standard">
-                                <div className="sh-team-icons-container"><a href="https://jevelin.shufflehound.com"
-                                  target="_blank" className="sh-team-icon">
-                                  <div className="sh-team-icon-container">
-                                    <i className="icon-social-facebook"></i>
-                                  </div>
-                                </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-twitter"></i>
-                                    </div>
-                                  </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-linkedin"></i>
-                                    </div>
-                                  </a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="sh-column sh-column-2b700400bd402cf1639e81e5d6ebf389 fw-col-xs-12 fw-col-sm-3 sh-column-mobile-padding">
-                        <div className="sh-column-wrapper">
-                          <div className="sh-team sh-team-style4 sh-team-social-standard"
-                            id="team-1c19f41b55db45da3f9bcb610771f5db">
-                            <div className="sh-team-image">
-                              <a href="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-92610.jpg"
-                                className="sh-team-image-position" rel="lightbox">
-                                <img
-                                  src="https://jevelin.shufflehound.com/crypto/wp-content/uploads/sites/19/2018/04/Layer-92610.jpg"
-                                />
-                              </a>
-                            </div>
-                            <div className="sh-team-aside">
-                              <div className="sh-team-name">
-                                <h3>Jessica Leeman</h3>
-                              </div>
-                              <div className="sh-team-role">
-                                Design Advisor </div>
-                              <div className="sh-team-description">
-                                <p>Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras
-                                  ornare, augue sit amet varius mollis, lacus dui laoreet </p>
-                              </div>
-                              <div className="sh-team-icons sh-team-icons-standard">
-                                <div className="sh-team-icons-container"><a href="https://jevelin.shufflehound.com"
-                                  target="_blank" className="sh-team-icon">
-                                  <div className="sh-team-icon-container">
-                                    <i className="icon-social-facebook"></i>
-                                  </div>
-                                </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-twitter"></i>
-                                    </div>
-                                  </a><a href="https://jevelin.shufflehound.com" target="_blank" className="sh-team-icon">
-                                    <div className="sh-team-icon-container">
-                                      <i className="icon-social-linkedin"></i>
-                                    </div>
-                                  </a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
+
                 <section
                   className="sh-section sh-section-3c0e8befc5563a9e2b2f1686239df430 fw-main-row sh-section-visibility-everywhere">
                   <div className="sh-section-container container">
@@ -1025,7 +545,7 @@ const LandingPage = () => {
                             <div className="text-group-layout2">
                               <div className="text-group-content"
                                 style={{ display: 'inline-block', verticalAlign: 'bottom', marginRight: '15px' }}>
-                                <h2><span style={{ fontSize: '36px' }}>Publications</span></h2>
+                                <h2><span style={{ fontSize: '36px' }}>APIs We've Utilized</span></h2>
                               </div>
                               <div className="text-group-content" style={{ display: 'inline-block', verticalAlign: 'bottom' }}>
                                 <p><strong><span style={{ color: '#f3ba40' }}>AND PARTNERS</span></strong></p>
@@ -1036,56 +556,7 @@ const LandingPage = () => {
                             className="sh-divider sh-divider-center sh-divider-content-none">
                             <div className="sh-divider-line"></div>
                           </div>
-                          {/* <script type="text/javascript">
-                        jQuery(document).ready(function ($) {
 
-                          $('#testimonials-slider-3514de25caf749fa7c5dc0f72d1b19b3').on('init', function (event, slick, currentSlide, nextSlide) {
-                            $('#testimonials-3514de25caf749fa7c5dc0f72d1b19b3 .sh-testimonials-switch').css('opacity', '1');
-                          });
-
-                          $('#testimonials-slider-3514de25caf749fa7c5dc0f72d1b19b3').slick({
-                            dots: false,
-                            arrows: true,
-                            infinite: true,
-                            speed: 500,
-                            slidesToShow: 1,
-                            fade: true,
-                            responsive: [
-                              {
-                                breakpoint: 1000,
-                                settings: {
-                                  slidesToShow: 1
-                                }
-                              }
-                            ],
-                            adaptiveHeight: true,
-                            autoplay: false,
-                            autoplaySpeed: 5000,
-                          });
-
-                          function testimonials_slider_update_3514de25caf749fa7c5dc0f72d1b19b3() {
-                            $('#testimonials-slider-3514de25caf749fa7c5dc0f72d1b19b3 .slick-slide').css('height', '');
-                            var stHeight = $('#testimonials-slider-3514de25caf749fa7c5dc0f72d1b19b3 .slick-track').height();
-                            $('#testimonials-slider-3514de25caf749fa7c5dc0f72d1b19b3 .slick-slide').css('height', stHeight + 'px');
-                          }
-
-                          testimonials_slider_update_3514de25caf749fa7c5dc0f72d1b19b3();
-                          $(window).on('load resize', function () {
-                            setTimeout(function () {
-                              testimonials_slider_update_3514de25caf749fa7c5dc0f72d1b19b3();
-                            }, 50);
-                          });
-
-                          $('#testimonials-3514de25caf749fa7c5dc0f72d1b19b3 .sh-testimonials-prev').on('click', function () {
-                            $('#testimonials-slider-3514de25caf749fa7c5dc0f72d1b19b3').slick('slickPrev');
-                          });
-
-                          $('#testimonials-3514de25caf749fa7c5dc0f72d1b19b3 .sh-testimonials-next').on('click', function () {
-                            $('#testimonials-slider-3514de25caf749fa7c5dc0f72d1b19b3').slick('slickNext');
-                          });
-
-                        });
-                      </script> */}
                           <div id="testimonials-3514de25caf749fa7c5dc0f72d1b19b3"
                             className="sh-testimonials sh-testimonials-quote-on sh-testimonials-style3">
                             <div className="sh-testimonials-group" id="testimonials-slider-3514de25caf749fa7c5dc0f72d1b19b3">
