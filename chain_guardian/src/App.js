@@ -6,10 +6,11 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import LandingPage from './pages/LandingPage'
 import Signup from './pages/signup'
 import Login from './pages/signin'
-import Dashboard from './pages/dashboard'
+import AddressPage from './pages/address'
 
 //context provider
 import { useAuthContext } from './hooks/useAuthContext';
+import Dashboard from './pages/dashboard'
 
 
 function App() {
@@ -18,7 +19,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route path='/address' element={<AddressPage/>}/>
           <Route path='/dashboard' element={<Dashboard/>}/>
+          
           <Route path='/landing' element={<LandingPage/>}/>
           <Route
             path='/'
@@ -29,6 +32,10 @@ function App() {
             element={!user ? <Signup /> : <Navigate to='/' />}
           />
           <Route
+            path='/login'
+            element={!user ? <Login /> : <Navigate to='/' />}
+          />
+        <Route
             path='/login'
             element={!user ? <Login /> : <Navigate to='/' />}
           />
