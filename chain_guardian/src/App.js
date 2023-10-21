@@ -18,6 +18,10 @@ function App() {
     <div className="App">
     <BrowserRouter>
         <Routes>
+        <Route
+              path='/'
+              element={user ? <Signup/> : <Navigate to='/landing'/>}
+            />
           <Route path='/landing' element={<LandingPage />}/>
           <Route
               path='/signup'
@@ -27,11 +31,6 @@ function App() {
               path='/login'
               element={!user ? <Login/> : <Navigate to='/'/>}
             />
-            {/* <Route
-              path='/'
-              element={user ? <Dashboard/> : <Navigate to='/login'/>}
-            /> */}
-
         </Routes>
     </BrowserRouter>
     </div>
