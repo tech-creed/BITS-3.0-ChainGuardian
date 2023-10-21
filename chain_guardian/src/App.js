@@ -5,6 +5,8 @@ import { BrowserRouter,Route,Routes,Navigate } from 'react-router-dom'
 //pages
 import LandingPage from './pages/LandingPage'
 import Signup from './pages/signup'
+import Login from './pages/signin'
+
 
 //context provider
 import { useAuthContext } from './hooks/useAuthContext';
@@ -21,10 +23,10 @@ function App() {
               path='/signup'
               element={!user ? <Signup/> : <Navigate to='/'/>}
             />
-            {/* <Route
+            <Route
               path='/login'
               element={!user ? <Login/> : <Navigate to='/'/>}
-            /> */}
+            />
             {/* <Route
               path='/'
               element={user ? <Dashboard/> : <Navigate to='/login'/>}
