@@ -44914,7 +44914,10 @@ body {
 }
 
 html {
-  overflow-y: auto
+  overflow-y: auto;
+  overflow-x: hidden;
+
+
 }
 
 body {

@@ -7,11 +7,12 @@ import LandingPage from './pages/LandingPage'
 import Signup from './pages/signup'
 import Login from './pages/signin'
 import AddressPage from './pages/address'
+import Dashboard from './pages/dashboard'
+import Transaction from './pages/transaction'
 
 //context provider
 import { useAuthContext } from './hooks/useAuthContext';
-import Dashboard from './pages/dashboard'
-import Transaction from './pages/transaction'
+
 
 
 function App() {
@@ -20,10 +21,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/dashboard' element={<Dashboard/>}/>
+          <Route path='/dashboard' element={user ? <Dashboard/> :<Navigate to='/landing' />}/>
           <Route path='/landing' element={<LandingPage/>}/>
-          <Route path='/address' element={user && <AddressPage/>}/>
-          <Route path='/transaction' element={user && <Transaction/>}/>
+          <Route path='/address' element={user? <AddressPage/> :<Navigate to='/landing' />}/>
+          <Route path='/transaction' element={user ?<Transaction/>:<Navigate to='/landing' />}/>
 
           <Route
             path='/'
