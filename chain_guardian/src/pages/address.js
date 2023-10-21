@@ -114,7 +114,7 @@ const AddressPage = () => {
                 </CardBody>
                 
                 <CardFooter className="ransition text-black ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 pt-0 mt-5 bg-indigo-600 rounded-md w-48">
-                    <Link href="/tree" className="inline-block">
+                    <Link to="/tree" className="inline-block">
                         <Button size="sm" variant="text" className="flex items-center text-white gap-2">
                         Node Visualize
                             <ArrowLongRightIcon strokeWidth={2} className="w-4 h-4" />

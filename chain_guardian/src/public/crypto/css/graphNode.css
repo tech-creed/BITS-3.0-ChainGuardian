@@ -1,0 +1,11 @@
+.graphNode{
+    flex-direction: column;
+}
+
+.hash-txt{
+    font-size : 10px!important;
+}
+.annonomys{
+    background-color: #a52a2a91;
+    padding: 15px;
+}

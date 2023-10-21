@@ -20,6 +20,7 @@ const useAddress = () => {
       } else {
         setError(null) 
         setData(json) 
+        localStorage.setItem(chain_on_txn,json.chain)
         return { chain: json.chain, error: null } 
       }
     } catch (error) {

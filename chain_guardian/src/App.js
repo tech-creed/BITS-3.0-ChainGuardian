@@ -9,6 +9,8 @@ import Login from './pages/signin'
 import AddressPage from './pages/address'
 import Dashboard from './pages/dashboard'
 import Transaction from './pages/transaction'
+import Tree from './pages/tree'
+
 
 //context provider
 import { useAuthContext } from './hooks/useAuthContext';
@@ -38,6 +40,7 @@ function App() {
             path='/login'
             element={!user ? <Login /> : <Navigate to='/' />}
           />
+          <Route path='/tree' element={<Tree/>}/>
         </Routes>
       </BrowserRouter>
     </div>
