@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import GoogleButton from 'react-google-button'
+import { Link } from 'react-router-dom'
 
 import { useSignup } from '../hooks/useSignup'
 
@@ -62,7 +63,7 @@ function Signup() {
             {isPending ? <button  className={`bg-indigo-600 py-2 px-4 text-sm text-white rounded border border-green focus:outline-none focus:border-green-dark`} disabled>Loading..</button> : <button  className={`bg-indigo-600 py-2 px-4 text-sm text-white rounded border border-green focus:outline-none focus:border-green-dark`}>Signup</button>}
             </div>
             <div className='text-white flex justify-center'>
-              Already have an account? {" "}<a className='text-black' href="signin">Click Here...</a>
+              Already have an account? {" "}<Link className='text-black' to="/login">Click Here...</Link>
             </div>
             {error && <div className="error">{error}</div>}
         <div className="google-auth-button flex justify-center p-2">
