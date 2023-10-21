@@ -1,38 +1,39 @@
 import React from 'react'
-import { BrowserRouter,Route,Routes,Navigate } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 
 
 //pages
 import LandingPage from './pages/LandingPage'
 import Signup from './pages/signup'
 import Login from './pages/signin'
-
+import Dashboard from './pages/dashboard'
 
 //context provider
 import { useAuthContext } from './hooks/useAuthContext';
 
 
 function App() {
-  const {user} = useAuthContext()
+  const { user } = useAuthContext()
   return (
     <div className="App">
-    <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-        <Route
-              path='/'
-              element={user ? <Signup/> : <Navigate to='/landing'/>}
-            />
-          <Route path='/landing' element={<LandingPage />}/>
+          <Route path='/dashboard' element={<Dashboard/>}/>
+          <Route path='/landing' element={<LandingPage/>}/>
           <Route
-              path='/signup'
-              element={!user ? <Signup/> : <Navigate to='/'/>}
-            />
-            <Route
-              path='/login'
-              element={!user ? <Login/> : <Navigate to='/'/>}
-            />
+            path='/'
+            element={user ? <Navigate to='/dashboard' /> :<LandingPage /> }
+          />
+          <Route
+            path='/signup'
+            element={!user ? <Signup /> : <Navigate to='/' />}
+          />
+          <Route
+            path='/login'
+            element={!user ? <Login /> : <Navigate to='/' />}
+          />
         </Routes>
-    </BrowserRouter>
+      </BrowserRouter>
     </div>
   )
 }
