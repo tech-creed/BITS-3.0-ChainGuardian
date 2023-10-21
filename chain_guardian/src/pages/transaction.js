@@ -3,12 +3,15 @@ import React, { useEffect, useState } from 'react'
 import '../public/crypto/css/transaction.css'
 
 import { useSearchParams } from 'react-router-dom'
+
+import useTransaction  from '../hooks/useTransaction'
 import TransactionSection from '../components/transactionSec'
 import Navbar from '../components/navbar'
 import Find from '../components/Find'
 import Table from '../components/Table'
 
 function Transaction() {
+  const { error, isPending, data, getTransaction } = useTransaction()
   const [Id , setTxnId] = useState(null)
   const [queryString] = useSearchParams()
   const chain = queryString.get('chain')
