@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1399b5c0.css",
+    "main.js": "/static/js/main.5553c0cf.js",
+    "static/media/Rectangle-922-copy.jpg": "/static/media/Rectangle-922-copy.2fdfbbdb1114d7afaf88.jpg",
+    "static/media/hero-section.jpeg": "/static/media/hero-section.81df984a12ee5616aede.jpeg",
+    "static/media/ChainGuardian.png": "/static/media/ChainGuardian.832cccf5827b97807afe.png",
+    "static/media/markel_tree-removebg-preview (1).png": "/static/media/markel_tree-removebg-preview (1).7057bbbde00ce31a1e0b.png",
+    "static/media/4745903.png": "/static/media/4745903.5ff56b1b05a06abddd36.png",
+    "static/media/8805163.png": "/static/media/8805163.4c388945f477ecf78fb9.png",
+    "static/media/extracting-data.png": "/static/media/extracting-data.f73d5d4cd04a78ccb774.png",
+    "static/media/2810114.png": "/static/media/2810114.af96e828442eef5eb240.png",
+    "index.html": "/index.html",
+    "main.1399b5c0.css.map": "/static/css/main.1399b5c0.css.map",
+    "main.5553c0cf.js.map": "/static/js/main.5553c0cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1399b5c0.css",
+    "static/js/main.5553c0cf.js"
+  ]
+}
