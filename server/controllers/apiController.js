@@ -77,7 +77,7 @@ const accValidator = async (req, res) => {
     
             for (let index = 0; index < 10; index++) {
               var element = finalData['transactions'][index];
-              tempUrl = `https://api.blockchair.com/${chain}/dashboards/transaction/${element}?key=${process.env.APIKEY}`
+              tempUrl = `https://api.blockchair.com/${chain}/dashboards/transaction/${element}?key=G___1bJXRpXgKX887Kc2tRglE7kY6iCF`
               await axios.get(tempUrl)
                 .then(response =>{
                   var tmpData = response.data
