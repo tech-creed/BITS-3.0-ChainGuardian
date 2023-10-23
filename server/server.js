@@ -29,12 +29,6 @@ app.use("/api", apiRoute)
 app.use("/news", newsRoute)
 app.use("/graph", graphRoute)
 
-
-// routes for api handling
-app.use("/",(req,res)=>{
-    res.send('Welcome to the API Service for ChainGuardian')
-})
-
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
 })
