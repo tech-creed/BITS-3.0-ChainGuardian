@@ -10,6 +10,8 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+app.use(express.static(path.join(__dirname, 'build')))
+
 const PORT = process.env.PORT || 8080
 
 // routes
@@ -31,4 +33,8 @@ app.use("/graph", graphRoute)
 // routes for api handling
 app.use("/",(req,res)=>{
     res.send('Welcome to the API Service for ChainGuardian')
+})
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
 })
