@@ -24,8 +24,8 @@ Those transactions mapped to the wallets have to be identified.
 ## API's Used
 - Under Development
 
-#### Youtube Demo Link - 
+#### Youtube Demo Link - https://youtu.be/vOfsDD0_bfw
 
 ## Blog and API Deployment
-API Postman Collection - <br />
-Blog Post - 
+API Postman Collection - https://www.postman.com/mukilan-2003/workspace/techcreed-workspace/folder/16461660-68986fde-7b51-4968-8e01-26930ac23caf <br />
+Blog Post - https://medium.com/@mukilan069/unlocking-the-power-of-blockchain-a-deep-dive-into-our-new-validation-tool-85d8dc7b0818
